@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex">
+
+	<title>File infoupload_model.php</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+		</div>
+
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-add_course.html">add_course</a></li>
+				<li><a href="class-admin_home.html">admin_home</a></li>
+				<li><a href="class-admins.html">admins</a></li>
+				<li><a href="class-auth.html">auth</a></li>
+				<li><a href="class-course_model.html">course_model</a></li>
+				<li><a href="class-course_questions.html">course_questions</a></li>
+				<li><a href="class-default_controller.html">default_controller</a></li>
+				<li><a href="class-delete_course.html">delete_course</a></li>
+				<li><a href="class-duplicate_course.html">duplicate_course</a></li>
+				<li><a href="class-evaluation_model.html">evaluation_model</a></li>
+				<li><a href="class-evaluations.html">evaluations</a></li>
+				<li><a href="class-infoUpload_model.html">infoUpload_model</a></li>
+				<li><a href="class-instructors.html">instructors</a></li>
+				<li><a href="class-invalid_user.html">invalid_user</a></li>
+				<li><a href="class-manage_course.html">manage_course</a></li>
+				<li><a href="class-manage_course_model.html">manage_course_model</a></li>
+				<li><a href="class-MY_Controller.html">MY_Controller</a></li>
+				<li><a href="class-questions_model.html">questions_model</a></li>
+				<li><a href="class-reports.html">reports</a></li>
+				<li><a href="class-reports_model.html">reports_model</a></li>
+				<li><a href="class-required_questions.html">required_questions</a></li>
+				<li><a href="class-sample_evaluations.html">sample_evaluations</a></li>
+				<li><a href="class-Settings.html">Settings</a></li>
+				<li><a href="class-settings_model.html">settings_model</a></li>
+				<li><a href="class-student_home.html">student_home</a></li>
+				<li><a href="class-Superb_Model.html">Superb_Model</a></li>
+				<li><a href="class-upload.html">upload</a></li>
+				<li class="active"><a href="class-user_model.html">user_model</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-add_course.html">add_course</a></li>
+				<li><a href="class-admin_home.html">admin_home</a></li>
+				<li><a href="class-admins.html">admins</a></li>
+				<li><a href="class-auth.html">auth</a></li>
+				<li><a href="class-course_model.html">course_model</a></li>
+				<li><a href="class-course_questions.html">course_questions</a></li>
+				<li><a href="class-default_controller.html">default_controller</a></li>
+				<li><a href="class-delete_course.html">delete_course</a></li>
+				<li><a href="class-duplicate_course.html">duplicate_course</a></li>
+				<li><a href="class-evaluation_model.html">evaluation_model</a></li>
+				<li><a href="class-evaluations.html">evaluations</a></li>
+				<li><a href="class-infoUpload_model.html">infoUpload_model</a></li>
+				<li><a href="class-instructors.html">instructors</a></li>
+				<li><a href="class-invalid_user.html">invalid_user</a></li>
+				<li><a href="class-manage_course.html">manage_course</a></li>
+				<li><a href="class-manage_course_model.html">manage_course_model</a></li>
+				<li><a href="class-MY_Controller.html">MY_Controller</a></li>
+				<li><a href="class-questions_model.html">questions_model</a></li>
+				<li><a href="class-reports.html">reports</a></li>
+				<li><a href="class-reports_model.html">reports_model</a></li>
+				<li><a href="class-required_questions.html">required_questions</a></li>
+				<li><a href="class-sample_evaluations.html">sample_evaluations</a></li>
+				<li><a href="class-Settings.html">Settings</a></li>
+				<li><a href="class-settings_model.html">settings_model</a></li>
+				<li><a href="class-student_home.html">student_home</a></li>
+				<li><a href="class-Superb_Model.html">Superb_Model</a></li>
+				<li><a href="class-upload.html">upload</a></li>
+				<li class="active"><a href="class-user_model.html">user_model</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="class-user_model.html" title="Summary of user_model"><span>Class</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<pre><code><span id="1" class="l"><a href="#1">  1: </a><span class="xlang">&lt;?php</span> <span class="php-keyword1">if</span> (!<span class="php-keyword2">defined</span>(<span class="php-quote">'BASEPATH'</span>))
+</span><span id="2" class="l"><a href="#2">  2: </a>{
+</span><span id="3" class="l"><a href="#3">  3: </a>    <span class="php-keyword1">exit</span>(<span class="php-quote">'No direct script access allowed'</span>);
+</span><span id="4" class="l"><a href="#4">  4: </a>}
+</span><span id="5" class="l"><a href="#5">  5: </a><span class="php-keyword1">require_once</span> <span class="php-keyword2">dirname</span>(__FILE__) . <span class="php-quote">&quot;/../libraries/odataphp/framework/CourseEnrollmentEntities.php&quot;</span>;
+</span><span id="6" class="l"><a href="#6">  6: </a>
+</span><span id="7" class="l"><a href="#7">  7: </a><span class="php-keyword1">class</span> infoUpload_model <span class="php-keyword1">extends</span> CI_model
+</span><span id="8" class="l"><a href="#8">  8: </a>{
+</span><span id="9" class="l"><a href="#9">  9: </a>    <span class="php-comment">/*Keys used in regards to keeping track of courses by giving them unique identifiers*/</span>
+</span><span id="10" class="l"><a href="#10"> 10: </a>    <span class="php-keyword1">var</span> <span class="php-var">$instructor_count</span> = <span class="php-quote">'count_instructor'</span>;
+</span><span id="11" class="l"><a href="#11"> 11: </a>    <span class="php-keyword1">var</span> <span class="php-var">$upload_course_count</span> = <span class="php-quote">'upload_count'</span>;
+</span><span id="12" class="l"><a href="#12"> 12: </a>    <span class="php-keyword1">var</span> <span class="php-var">$upload_course_key</span> = <span class="php-quote">'upload-course-'</span>;
+</span><span id="13" class="l"><a href="#13"> 13: </a>    <span class="php-keyword1">var</span> <span class="php-var">$course</span> = <span class="php-quote">'course'</span>;
+</span><span id="14" class="l"><a href="#14"> 14: </a>    <span class="php-comment">/*Keys that correspond to all the properties of a course*/</span>
+</span><span id="15" class="l"><a href="#15"> 15: </a>    <span class="php-keyword1">var</span> <span class="php-var">$term</span> = <span class="php-quote">'term'</span>;
+</span><span id="16" class="l"><a href="#16"> 16: </a>    <span class="php-keyword1">var</span> <span class="php-var">$year</span> = <span class="php-quote">'year'</span>;
+</span><span id="17" class="l"><a href="#17"> 17: </a>    <span class="php-keyword1">var</span> <span class="php-var">$subject</span> = <span class="php-quote">'subject'</span>;
+</span><span id="18" class="l"><a href="#18"> 18: </a>    <span class="php-keyword1">var</span> <span class="php-var">$number</span> = <span class="php-quote">'number'</span>;
+</span><span id="19" class="l"><a href="#19"> 19: </a>    <span class="php-keyword1">var</span> <span class="php-var">$section</span> = <span class="php-quote">'section'</span>;
+</span><span id="20" class="l"><a href="#20"> 20: </a>    <span class="php-keyword1">var</span> <span class="php-var">$title</span> = <span class="php-quote">'title'</span>;
+</span><span id="21" class="l"><a href="#21"> 21: </a>    <span class="php-keyword1">var</span> <span class="php-var">$start_date</span> = <span class="php-quote">'start_date'</span>;
+</span><span id="22" class="l"><a href="#22"> 22: </a>    <span class="php-keyword1">var</span> <span class="php-var">$end_date</span> = <span class="php-quote">'end_date'</span>;
+</span><span id="23" class="l"><a href="#23"> 23: </a>    <span class="php-keyword1">var</span> <span class="php-var">$eval_start_date</span> = <span class="php-quote">'eval_start_date'</span>;
+</span><span id="24" class="l"><a href="#24"> 24: </a>    <span class="php-keyword1">var</span> <span class="php-var">$eval_end_date</span> = <span class="php-quote">'eval_end_date'</span>;
+</span><span id="25" class="l"><a href="#25"> 25: </a>    <span class="php-keyword1">var</span> <span class="php-var">$instructor</span> = <span class="php-quote">'instructor'</span>;
+</span><span id="26" class="l"><a href="#26"> 26: </a>    <span class="php-keyword1">var</span> <span class="php-var">$serviceUrl</span> = <span class="php-quote">'https://webapps.eastern.ewu.edu/datainterfaces/CourseEnrollment.svc'</span>;
+</span><span id="27" class="l"><a href="#27"> 27: </a>
+</span><span id="28" class="l"><a href="#28"> 28: </a>    <span class="php-comment">/*Keys that correspond to all the properties that are used in relation to an instructor*/</span>
+</span><span id="29" class="l"><a href="#29"> 29: </a>    <span class="php-keyword1">var</span> <span class="php-var">$name</span> = <span class="php-quote">'name'</span>;
+</span><span id="30" class="l"><a href="#30"> 30: </a>    <span class="php-keyword1">var</span> <span class="php-var">$username</span> = <span class="php-quote">'username'</span>;
+</span><span id="31" class="l"><a href="#31"> 31: </a>
+</span><span id="32" class="l"><a href="#32"> 32: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> __construct()
+</span><span id="33" class="l"><a href="#33"> 33: </a>    {
+</span><span id="34" class="l"><a href="#34"> 34: </a>        parent::__construct();
+</span><span id="35" class="l"><a href="#35"> 35: </a>        <span class="php-var">$this</span>-&gt;load-&gt;database();
+</span><span id="36" class="l"><a href="#36"> 36: </a>        <span class="php-var">$this</span>-&gt;load-&gt;model(<span class="php-quote">&quot;course_model&quot;</span>);
+</span><span id="37" class="l"><a href="#37"> 37: </a>        <span class="php-var">$this</span>-&gt;load-&gt;model(<span class="php-quote">&quot;user_model&quot;</span>);
+</span><span id="38" class="l"><a href="#38"> 38: </a>    }
+</span><span id="39" class="l"><a href="#39"> 39: </a>
+</span><span id="40" class="l"><a href="#40"> 40: </a>    <span class="php-comment">/*
+</span></span><span id="41" class="l"><a href="#41"> 41: </a><span class="php-comment">     * Name: getCoursesInstructorsIntoSession
+</span></span><span id="42" class="l"><a href="#42"> 42: </a><span class="php-comment">     * Description: Puts course and instructor data contained in the ODATA service into CodeIgnitor's
+</span></span><span id="43" class="l"><a href="#43"> 43: </a><span class="php-comment">     * session, so that data is persistent and can be accessed from a single access point.
+</span></span><span id="44" class="l"><a href="#44"> 44: </a><span class="php-comment">     * Parameters: None
+</span></span><span id="45" class="l"><a href="#45"> 45: </a><span class="php-comment">     * Return: None
+</span></span><span id="46" class="l"><a href="#46"> 46: </a><span class="php-comment">     * Documentation Modified: 3/4/14 (LW)
+</span></span><span id="47" class="l"><a href="#47"> 47: </a><span class="php-comment">     *
+</span></span><span id="48" class="l"><a href="#48"> 48: </a><span class="php-comment">     * 1) Create an array to store fields of data contained in the Members ODATA property
+</span></span><span id="49" class="l"><a href="#49"> 49: </a><span class="php-comment">     *(as a nested entity).
+</span></span><span id="50" class="l"><a href="#50"> 50: </a><span class="php-comment">     * 2) Create variables to hold  the expand properties of the courses entity, the expand
+</span></span><span id="51" class="l"><a href="#51"> 51: </a><span class="php-comment">     * properties of the members entity, the role property (a property of the members entity),
+</span></span><span id="52" class="l"><a href="#52"> 52: </a><span class="php-comment">     * and the value of the role property by which to filter users.
+</span></span><span id="53" class="l"><a href="#53"> 53: </a><span class="php-comment">     * 3) Create an array to hold the properties contained in the courses entity.
+</span></span><span id="54" class="l"><a href="#54"> 54: </a><span class="php-comment">     * 4) Retrieve course entity information from the ODATA service.                            (F)
+</span></span><span id="55" class="l"><a href="#55"> 55: </a><span class="php-comment">     * 5) Parse the data retrieved from the ODATA service using the keys in $expandFields.      (F)
+</span></span><span id="56" class="l"><a href="#56"> 56: </a><span class="php-comment">     * 6) Assign unique keys to each of the retrieved courses.                                  (F)
+</span></span><span id="57" class="l"><a href="#57"> 57: </a><span class="php-comment">     * 7) Merge the data concerning courses and instructors into a single array.
+</span></span><span id="58" class="l"><a href="#58"> 58: </a><span class="php-comment">     * 8) Count the number of courses.
+</span></span><span id="59" class="l"><a href="#59"> 59: </a><span class="php-comment">     * 9) Store the current quarter and year in variables and add that data to the array that
+</span></span><span id="60" class="l"><a href="#60"> 60: </a><span class="php-comment">     * contains the course and instructor data.
+</span></span><span id="61" class="l"><a href="#61"> 61: </a><span class="php-comment">     * 10) Add the current course and instructor data into the current session for use.
+</span></span><span id="62" class="l"><a href="#62"> 62: </a><span class="php-comment">     */</span>
+</span><span id="63" class="l"><a href="#63"> 63: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> GetCoursesInstructorsIntoSession()
+</span><span id="64" class="l"><a href="#64"> 64: </a>    {
+</span><span id="65" class="l"><a href="#65"> 65: </a>        <span class="php-comment">//This calls the method responsible for retrieving the &quot;COURSES&quot; entities from the ODATA service.</span>
+</span><span id="66" class="l"><a href="#66"> 66: </a>        <span class="php-var">$entities</span> = <span class="php-var">$this</span>-&gt;RetrieveEntityInfo();
+</span><span id="67" class="l"><a href="#67"> 67: </a>
+</span><span id="68" class="l"><a href="#68"> 68: </a>        <span class="php-keyword1">if</span> (!<span class="php-keyword1">isset</span>(<span class="php-var">$entities</span>) || <span class="php-keyword2">count</span>(<span class="php-var">$entities</span>) &lt;= <span class="php-num">0</span>)
+</span><span id="69" class="l"><a href="#69"> 69: </a>            <span class="php-keyword1">return</span> <span class="php-keyword1">false</span>;
+</span><span id="70" class="l"><a href="#70"> 70: </a>
+</span><span id="71" class="l"><a href="#71"> 71: </a>        <span class="php-comment">// Step 5</span>
+</span><span id="72" class="l"><a href="#72"> 72: </a>        <span class="php-comment">//This calls the method responsible for parsing out the data from the &quot;COURSES&quot; entities into arrays with the appropriate keys before database insertion or updating.</span>
+</span><span id="73" class="l"><a href="#73"> 73: </a>        <span class="php-var">$this</span>-&gt;ParseODataValues(<span class="php-var">$entities</span>, <span class="php-var">$courses</span>, <span class="php-var">$instructors</span>);
+</span><span id="74" class="l"><a href="#74"> 74: </a>
+</span><span id="75" class="l"><a href="#75"> 75: </a>        <span class="php-comment">// Step 6</span>
+</span><span id="76" class="l"><a href="#76"> 76: </a>        <span class="php-comment">//This calls the method responsible for uniquely identifying the courses that are to be stored in the session</span>
+</span><span id="77" class="l"><a href="#77"> 77: </a>        <span class="php-var">$this</span>-&gt;NormalizeCourses(<span class="php-var">$courses</span>);
+</span><span id="78" class="l"><a href="#78"> 78: </a>        <span class="php-var">$reformattedData</span> = <span class="php-keyword1">array</span>();
+</span><span id="79" class="l"><a href="#79"> 79: </a>
+</span><span id="80" class="l"><a href="#80"> 80: </a>        <span class="php-comment">// Step 7</span>
+</span><span id="81" class="l"><a href="#81"> 81: </a>        <span class="php-comment">//The following statements simply merge the uniquely identified arrays of instructors and courses</span>
+</span><span id="82" class="l"><a href="#82"> 82: </a>        <span class="php-var">$reformattedData</span> = <span class="php-keyword2">array_merge</span>(<span class="php-var">$reformattedData</span>, <span class="php-var">$courses</span>);
+</span><span id="83" class="l"><a href="#83"> 83: </a>        <span class="php-var">$reformattedData</span> = <span class="php-keyword2">array_merge</span>(<span class="php-var">$reformattedData</span>, <span class="php-var">$instructors</span>);
+</span><span id="84" class="l"><a href="#84"> 84: </a>
+</span><span id="85" class="l"><a href="#85"> 85: </a>        <span class="php-comment">// Step 8</span>
+</span><span id="86" class="l"><a href="#86"> 86: </a>        <span class="php-var">$reformattedData</span>[<span class="php-var">$this</span>-&gt;upload_course_count] = <span class="php-keyword2">count</span>(<span class="php-var">$courses</span>);
+</span><span id="87" class="l"><a href="#87"> 87: </a>
+</span><span id="88" class="l"><a href="#88"> 88: </a>        <span class="php-comment">// Step 9</span>
+</span><span id="89" class="l"><a href="#89"> 89: </a>        <span class="php-comment">//The two following values are necessary to describing the courses that are being stored in the session.</span>
+</span><span id="90" class="l"><a href="#90"> 90: </a>        <span class="php-var">$currentQuarter</span> = <span class="php-var">$courses</span>[<span class="php-var">$this</span>-&gt;upload_course_key . <span class="php-quote">&quot;0&quot;</span>][<span class="php-var">$this</span>-&gt;term];
+</span><span id="91" class="l"><a href="#91"> 91: </a>        <span class="php-var">$currentYear</span> = <span class="php-var">$courses</span>[<span class="php-var">$this</span>-&gt;upload_course_key . <span class="php-quote">&quot;0&quot;</span>][<span class="php-var">$this</span>-&gt;year];
+</span><span id="92" class="l"><a href="#92"> 92: </a>        <span class="php-var">$reformattedData</span>[<span class="php-var">$this</span>-&gt;term] = <span class="php-var">$currentQuarter</span>;
+</span><span id="93" class="l"><a href="#93"> 93: </a>        <span class="php-var">$reformattedData</span>[<span class="php-var">$this</span>-&gt;year] = <span class="php-var">$currentYear</span>;
+</span><span id="94" class="l"><a href="#94"> 94: </a>
+</span><span id="95" class="l"><a href="#95"> 95: </a>        <span class="php-comment">// Step 10</span>
+</span><span id="96" class="l"><a href="#96"> 96: </a>        <span class="php-comment">//The quarter,course,and instructor information is stored  in the session.</span>
+</span><span id="97" class="l"><a href="#97"> 97: </a>        <span class="php-var">$this</span>-&gt;session-&gt;set_userdata(<span class="php-var">$reformattedData</span>);
+</span><span id="98" class="l"><a href="#98"> 98: </a>        <span class="php-keyword1">return</span> <span class="php-keyword1">true</span>;
+</span><span id="99" class="l"><a href="#99"> 99: </a>    }
+</span><span id="100" class="l"><a href="#100">100: </a>
+</span><span id="101" class="l"><a href="#101">101: </a>    <span class="php-comment">/*
+</span></span><span id="102" class="l"><a href="#102">102: </a><span class="php-comment">     * IS THIS METHOD ACTUALLY DOING ANYTHING USEFULL (elise)
+</span></span><span id="103" class="l"><a href="#103">103: </a><span class="php-comment">     * Name: NormalizeCourses
+</span></span><span id="104" class="l"><a href="#104">104: </a><span class="php-comment">     * Description: Assigns unique identifiers (keys) to each course retrieved from Eastern's
+</span></span><span id="105" class="l"><a href="#105">105: </a><span class="php-comment">     * ODATA service.
+</span></span><span id="106" class="l"><a href="#106">106: </a><span class="php-comment">     * Parameters: &amp;$courses - the course data retrieved from Eastern's ODATA service
+</span></span><span id="107" class="l"><a href="#107">107: </a><span class="php-comment">     * Return: None
+</span></span><span id="108" class="l"><a href="#108">108: </a><span class="php-comment">     * Documentation Modified: 3/4/14 (LW)
+</span></span><span id="109" class="l"><a href="#109">109: </a><span class="php-comment">     *
+</span></span><span id="110" class="l"><a href="#110">110: </a><span class="php-comment">     * 1) Sort the courses based on subject, course number, and section.
+</span></span><span id="111" class="l"><a href="#111">111: </a><span class="php-comment">     * WHY DO THE COURSES NEED TO BE SOURTED!!?? (elise)
+</span></span><span id="112" class="l"><a href="#112">112: </a><span class="php-comment">     * 2) For each course, copy the course into the $keyed_courses array, where each
+</span></span><span id="113" class="l"><a href="#113">113: </a><span class="php-comment">     * index serves as a unique course key.                                                     (L)
+</span></span><span id="114" class="l"><a href="#114">114: </a><span class="php-comment">     * ISNT THERE AN AUTO INCREMENT FEATURE IN THE DATABASE FOR THIS (elise)
+</span></span><span id="115" class="l"><a href="#115">115: </a><span class="php-comment">     * 3) Replace the old array of courses with the array of courses that contains unique
+</span></span><span id="116" class="l"><a href="#116">116: </a><span class="php-comment">     * identifiers.
+</span></span><span id="117" class="l"><a href="#117">117: </a><span class="php-comment">     */</span>
+</span><span id="118" class="l"><a href="#118">118: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> NormalizeCourses(&amp;<span class="php-var">$courses</span>)
+</span><span id="119" class="l"><a href="#119">119: </a>    {
+</span><span id="120" class="l"><a href="#120">120: </a>        <span class="php-comment">// Step 1</span>
+</span><span id="121" class="l"><a href="#121">121: </a>        <span class="php-var">$this</span>-&gt;bubble_sort_compare(<span class="php-var">$courses</span>);
+</span><span id="122" class="l"><a href="#122">122: </a>        <span class="php-var">$keyed_courses</span> = <span class="php-keyword1">array</span>();
+</span><span id="123" class="l"><a href="#123">123: </a>        <span class="php-var">$course_index</span> = <span class="php-num">0</span>;
+</span><span id="124" class="l"><a href="#124">124: </a>
+</span><span id="125" class="l"><a href="#125">125: </a>        <span class="php-comment">// Step 2</span>
+</span><span id="126" class="l"><a href="#126">126: </a>        <span class="php-keyword1">foreach</span> (<span class="php-var">$courses</span> <span class="php-keyword1">as</span> <span class="php-var">$course</span>)
+</span><span id="127" class="l"><a href="#127">127: </a>        {
+</span><span id="128" class="l"><a href="#128">128: </a>            <span class="php-var">$key</span> = <span class="php-var">$this</span>-&gt;upload_course_key . <span class="php-var">$course_index</span>;
+</span><span id="129" class="l"><a href="#129">129: </a>            <span class="php-var">$keyed_courses</span>[<span class="php-var">$key</span>] = <span class="php-var">$course</span>;
+</span><span id="130" class="l"><a href="#130">130: </a>            <span class="php-var">$course_index</span>++;
+</span><span id="131" class="l"><a href="#131">131: </a>        }
+</span><span id="132" class="l"><a href="#132">132: </a>
+</span><span id="133" class="l"><a href="#133">133: </a>        <span class="php-comment">// Step 3</span>
+</span><span id="134" class="l"><a href="#134">134: </a>        <span class="php-var">$courses</span> = <span class="php-var">$keyed_courses</span>;
+</span><span id="135" class="l"><a href="#135">135: </a>    }
+</span><span id="136" class="l"><a href="#136">136: </a>
+</span><span id="137" class="l"><a href="#137">137: </a>    <span class="php-comment">/*
+</span></span><span id="138" class="l"><a href="#138">138: </a><span class="php-comment">     * Name: bubble_sort_compare
+</span></span><span id="139" class="l"><a href="#139">139: </a><span class="php-comment">     * Description: A bubble sort to sort the course array based on key value pairs in the array.
+</span></span><span id="140" class="l"><a href="#140">140: </a><span class="php-comment">     * Parameters: &amp;$courses - the array of courses retrieved from the ODATA service.
+</span></span><span id="141" class="l"><a href="#141">141: </a><span class="php-comment">     * Return: None
+</span></span><span id="142" class="l"><a href="#142">142: </a><span class="php-comment">     * Documentation Modified: 3/4/14 (LW)
+</span></span><span id="143" class="l"><a href="#143">143: </a><span class="php-comment">     *
+</span></span><span id="144" class="l"><a href="#144">144: </a><span class="php-comment">     * 1) Count the number of courses that were passed into the method.
+</span></span><span id="145" class="l"><a href="#145">145: </a><span class="php-comment">     * 2) Sort the courses in ascending order based on subject, course number, and section.     (L)(F)
+</span></span><span id="146" class="l"><a href="#146">146: </a><span class="php-comment">     */</span>
+</span><span id="147" class="l"><a href="#147">147: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> bubble_sort_compare(&amp;<span class="php-var">$courses</span>)
+</span><span id="148" class="l"><a href="#148">148: </a>    {
+</span><span id="149" class="l"><a href="#149">149: </a>        <span class="php-var">$done</span> = <span class="php-keyword1">false</span>;
+</span><span id="150" class="l"><a href="#150">150: </a>
+</span><span id="151" class="l"><a href="#151">151: </a>        <span class="php-comment">// Step 1</span>
+</span><span id="152" class="l"><a href="#152">152: </a>        <span class="php-var">$numOfCourses</span> = <span class="php-keyword2">count</span>(<span class="php-var">$courses</span>);
+</span><span id="153" class="l"><a href="#153">153: </a>
+</span><span id="154" class="l"><a href="#154">154: </a>        <span class="php-comment">// Step 2</span>
+</span><span id="155" class="l"><a href="#155">155: </a>        <span class="php-keyword1">while</span> (!<span class="php-var">$done</span>)
+</span><span id="156" class="l"><a href="#156">156: </a>        {
+</span><span id="157" class="l"><a href="#157">157: </a>            <span class="php-var">$swap</span> = <span class="php-keyword1">false</span>;
+</span><span id="158" class="l"><a href="#158">158: </a>            <span class="php-keyword1">for</span> (<span class="php-var">$curr_index</span> = <span class="php-num">0</span>, <span class="php-var">$next_index</span> = <span class="php-num">1</span>; <span class="php-var">$next_index</span> &lt; <span class="php-var">$numOfCourses</span>; <span class="php-var">$curr_index</span>++, <span class="php-var">$next_index</span>++)
+</span><span id="159" class="l"><a href="#159">159: </a>            {
+</span><span id="160" class="l"><a href="#160">160: </a>                <span class="php-var">$curr_course</span> = <span class="php-var">$courses</span>[<span class="php-var">$curr_index</span>];
+</span><span id="161" class="l"><a href="#161">161: </a>                <span class="php-var">$next_course</span> = <span class="php-var">$courses</span>[<span class="php-var">$next_index</span>];
+</span><span id="162" class="l"><a href="#162">162: </a>                <span class="php-var">$diff</span> = <span class="php-var">$this</span>-&gt;course_compare_ascend(<span class="php-var">$curr_course</span>, <span class="php-var">$next_course</span>);
+</span><span id="163" class="l"><a href="#163">163: </a>                <span class="php-keyword1">if</span> (<span class="php-var">$diff</span> &gt; <span class="php-num">0</span>)
+</span><span id="164" class="l"><a href="#164">164: </a>                {
+</span><span id="165" class="l"><a href="#165">165: </a>                    <span class="php-var">$courses</span>[<span class="php-var">$curr_index</span>] = <span class="php-var">$next_course</span>;
+</span><span id="166" class="l"><a href="#166">166: </a>                    <span class="php-var">$courses</span>[<span class="php-var">$next_index</span>] = <span class="php-var">$curr_course</span>;
+</span><span id="167" class="l"><a href="#167">167: </a>                    <span class="php-var">$swap</span> = <span class="php-keyword1">true</span>;
+</span><span id="168" class="l"><a href="#168">168: </a>                }
+</span><span id="169" class="l"><a href="#169">169: </a>            }
+</span><span id="170" class="l"><a href="#170">170: </a>            <span class="php-keyword1">if</span> (!<span class="php-var">$swap</span>)
+</span><span id="171" class="l"><a href="#171">171: </a>            {
+</span><span id="172" class="l"><a href="#172">172: </a>                <span class="php-var">$done</span> = <span class="php-keyword1">true</span>;
+</span><span id="173" class="l"><a href="#173">173: </a>            }
+</span><span id="174" class="l"><a href="#174">174: </a>        }
+</span><span id="175" class="l"><a href="#175">175: </a>    }
+</span><span id="176" class="l"><a href="#176">176: </a>
+</span><span id="177" class="l"><a href="#177">177: </a>    <span class="php-comment">/*
+</span></span><span id="178" class="l"><a href="#178">178: </a><span class="php-comment">     * Name: course_compare_ascend
+</span></span><span id="179" class="l"><a href="#179">179: </a><span class="php-comment">     * Description: Compares two courses based on the sort criterion that's defined (subject, course
+</span></span><span id="180" class="l"><a href="#180">180: </a><span class="php-comment">     * number, and section number). Returns a numerical value that indicates the difference between
+</span></span><span id="181" class="l"><a href="#181">181: </a><span class="php-comment">     * the two courses.
+</span></span><span id="182" class="l"><a href="#182">182: </a><span class="php-comment">     * Parameters: $array_a - the array containing the information on the first course, $array_b -
+</span></span><span id="183" class="l"><a href="#183">183: </a><span class="php-comment">     * the array containing the information on the second course
+</span></span><span id="184" class="l"><a href="#184">184: </a><span class="php-comment">     * Return: int -  the value which indicates the difference between the two courses
+</span></span><span id="185" class="l"><a href="#185">185: </a><span class="php-comment">     * Documentation Modified: 3/4/14 (LW)
+</span></span><span id="186" class="l"><a href="#186">186: </a><span class="php-comment">     *
+</span></span><span id="187" class="l"><a href="#187">187: </a><span class="php-comment">     * 1) Create an array to hold the sort criteria.
+</span></span><span id="188" class="l"><a href="#188">188: </a><span class="php-comment">     * 2) For each criterion, compare the data stored in the array that corresponds to that
+</span></span><span id="189" class="l"><a href="#189">189: </a><span class="php-comment">     * criterion and assign a corresponding difference value.                                   (L)
+</span></span><span id="190" class="l"><a href="#190">190: </a><span class="php-comment">     * 3) Return the indicated difference value.
+</span></span><span id="191" class="l"><a href="#191">191: </a><span class="php-comment">     */</span>
+</span><span id="192" class="l"><a href="#192">192: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> course_compare_ascend(<span class="php-var">$array_a</span>, <span class="php-var">$array_b</span>)
+</span><span id="193" class="l"><a href="#193">193: </a>    {
+</span><span id="194" class="l"><a href="#194">194: </a>        <span class="php-comment">// Step 1</span>
+</span><span id="195" class="l"><a href="#195">195: </a>        <span class="php-var">$sort_criterion</span> = <span class="php-keyword1">array</span>(<span class="php-quote">&quot;subject&quot;</span>, <span class="php-quote">&quot;number&quot;</span>, <span class="php-quote">&quot;section&quot;</span>);
+</span><span id="196" class="l"><a href="#196">196: </a>        <span class="php-var">$diff</span> = <span class="php-num">0</span>;
+</span><span id="197" class="l"><a href="#197">197: </a>
+</span><span id="198" class="l"><a href="#198">198: </a>        <span class="php-comment">// Step 2</span>
+</span><span id="199" class="l"><a href="#199">199: </a>        <span class="php-keyword1">foreach</span> (<span class="php-var">$sort_criterion</span> <span class="php-keyword1">as</span> <span class="php-var">$criterion</span>)
+</span><span id="200" class="l"><a href="#200">200: </a>        {
+</span><span id="201" class="l"><a href="#201">201: </a>            <span class="php-var">$a_value</span> = <span class="php-var">$array_a</span>[<span class="php-var">$criterion</span>];
+</span><span id="202" class="l"><a href="#202">202: </a>            <span class="php-var">$b_value</span> = <span class="php-var">$array_b</span>[<span class="php-var">$criterion</span>];
+</span><span id="203" class="l"><a href="#203">203: </a>            <span class="php-keyword1">if</span> (<span class="php-var">$a_value</span> &lt; <span class="php-var">$b_value</span>)
+</span><span id="204" class="l"><a href="#204">204: </a>            {
+</span><span id="205" class="l"><a href="#205">205: </a>                <span class="php-var">$diff</span> = -<span class="php-num">1</span>;
+</span><span id="206" class="l"><a href="#206">206: </a>                <span class="php-keyword1">break</span>;
+</span><span id="207" class="l"><a href="#207">207: </a>            }
+</span><span id="208" class="l"><a href="#208">208: </a>            <span class="php-keyword1">else</span>
+</span><span id="209" class="l"><a href="#209">209: </a>            {
+</span><span id="210" class="l"><a href="#210">210: </a>                <span class="php-keyword1">if</span> (<span class="php-var">$a_value</span> &gt; <span class="php-var">$b_value</span>)
+</span><span id="211" class="l"><a href="#211">211: </a>                {
+</span><span id="212" class="l"><a href="#212">212: </a>                    <span class="php-var">$diff</span> = <span class="php-num">1</span>;
+</span><span id="213" class="l"><a href="#213">213: </a>                    <span class="php-keyword1">break</span>;
+</span><span id="214" class="l"><a href="#214">214: </a>                }
+</span><span id="215" class="l"><a href="#215">215: </a>            }
+</span><span id="216" class="l"><a href="#216">216: </a>        }
+</span><span id="217" class="l"><a href="#217">217: </a>
+</span><span id="218" class="l"><a href="#218">218: </a>        <span class="php-comment">// Step 3</span>
+</span><span id="219" class="l"><a href="#219">219: </a>        <span class="php-keyword1">return</span> <span class="php-var">$diff</span>;
+</span><span id="220" class="l"><a href="#220">220: </a>    }
+</span><span id="221" class="l"><a href="#221">221: </a>
+</span><span id="222" class="l"><a href="#222">222: </a>    <span class="php-comment">/*
+</span></span><span id="223" class="l"><a href="#223">223: </a><span class="php-comment">     * Name: UpdateCoursesInstructors
+</span></span><span id="224" class="l"><a href="#224">224: </a><span class="php-comment">     * Description: This method receives an array of identifiers that follow the key format for
+</span></span><span id="225" class="l"><a href="#225">225: </a><span class="php-comment">     * referring to courses stored in the session. It then proceeds to retrieve and store those
+</span></span><span id="226" class="l"><a href="#226">226: </a><span class="php-comment">     * courses and the instructors that teach them into the &quot;course&quot; and &quot;user&quot; tables, respectively,
+</span></span><span id="227" class="l"><a href="#227">227: </a><span class="php-comment">     * as well as place the quarter information into the &quot;quarter_subject&quot; table.
+</span></span><span id="228" class="l"><a href="#228">228: </a><span class="php-comment">     * Parameters: $course_list - the collection of identifiers for currently-offered courses
+</span></span><span id="229" class="l"><a href="#229">229: </a><span class="php-comment">     * Return: None
+</span></span><span id="230" class="l"><a href="#230">230: </a><span class="php-comment">     * Documentation Modified: 3/4/14 (LW)
+</span></span><span id="231" class="l"><a href="#231">231: </a><span class="php-comment">     *
+</span></span><span id="232" class="l"><a href="#232">232: </a><span class="php-comment">     * 1) Break the course list apart into individual array elements - one for each course.
+</span></span><span id="233" class="l"><a href="#233">233: </a><span class="php-comment">     * 2) Retrieve each course's information from the session.                                  (L)
+</span></span><span id="234" class="l"><a href="#234">234: </a><span class="php-comment">     * 3) Retrieve the data on the instructor who is teaching each course.                      (L)
+</span></span><span id="235" class="l"><a href="#235">235: </a><span class="php-comment">     * 4) If a key does not already exist for the retrieved instructor, create one.             (L)
+</span></span><span id="236" class="l"><a href="#236">236: </a><span class="php-comment">     * 5) Check to see if each instructor is already in the database.                           (L)(F)
+</span></span><span id="237" class="l"><a href="#237">237: </a><span class="php-comment">     * 6) If an instructor is not already in the database, add them.                            (L)(F)
+</span></span><span id="238" class="l"><a href="#238">238: </a><span class="php-comment">     * 7) Add the courses to the database.                                                      (F)
+</span></span><span id="239" class="l"><a href="#239">239: </a><span class="php-comment">     */</span>
+</span><span id="240" class="l"><a href="#240">240: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> UpdateCoursesInstructors(<span class="php-var">$course_list</span>)
+</span><span id="241" class="l"><a href="#241">241: </a>    {
+</span><span id="242" class="l"><a href="#242">242: </a>        <span class="php-comment">// Step 1</span>
+</span><span id="243" class="l"><a href="#243">243: </a>        <span class="php-var">$course_indexes</span> = <span class="php-keyword2">explode</span>(<span class="php-quote">','</span>, <span class="php-var">$course_list</span>);
+</span><span id="244" class="l"><a href="#244">244: </a>        <span class="php-var">$courses</span> = <span class="php-keyword1">array</span>();
+</span><span id="245" class="l"><a href="#245">245: </a>        <span class="php-var">$instructors</span> = <span class="php-keyword1">array</span>();
+</span><span id="246" class="l"><a href="#246">246: </a>
+</span><span id="247" class="l"><a href="#247">247: </a>        <span class="php-keyword1">foreach</span> (<span class="php-var">$course_indexes</span> <span class="php-keyword1">as</span> <span class="php-var">$course_identifier</span>)
+</span><span id="248" class="l"><a href="#248">248: </a>        {
+</span><span id="249" class="l"><a href="#249">249: </a>            <span class="php-comment">// Step 2</span>
+</span><span id="250" class="l"><a href="#250">250: </a>            <span class="php-var">$course</span> = <span class="php-var">$this</span>-&gt;session-&gt;userdata(<span class="php-var">$course_identifier</span>);
+</span><span id="251" class="l"><a href="#251">251: </a>
+</span><span id="252" class="l"><a href="#252">252: </a>            <span class="php-comment">// get student count from OData stream</span>
+</span><span id="253" class="l"><a href="#253">253: </a>            <span class="php-var">$course</span>[<span class="php-quote">'student_count'</span>] = <span class="php-var">$this</span>-&gt;GetStudentCount(<span class="php-var">$course</span>[<span class="php-quote">'crn'</span>]);
+</span><span id="254" class="l"><a href="#254">254: </a>            <span class="php-keyword1">unset</span>(<span class="php-var">$course</span>[<span class="php-quote">'crn'</span>]);
+</span><span id="255" class="l"><a href="#255">255: </a>
+</span><span id="256" class="l"><a href="#256">256: </a>            <span class="php-var">$courses</span>[] = <span class="php-var">$course</span>;
+</span><span id="257" class="l"><a href="#257">257: </a>
+</span><span id="258" class="l"><a href="#258">258: </a>            <span class="php-comment">// Step 3</span>
+</span><span id="259" class="l"><a href="#259">259: </a>            <span class="php-var">$course_instructor</span> = <span class="php-var">$course</span>[<span class="php-var">$this</span>-&gt;instructor];
+</span><span id="260" class="l"><a href="#260">260: </a>
+</span><span id="261" class="l"><a href="#261">261: </a>            <span class="php-comment">// Step 4</span>
+</span><span id="262" class="l"><a href="#262">262: </a>            <span class="php-keyword1">if</span> (!<span class="php-keyword2">array_key_exists</span>(<span class="php-var">$course_instructor</span>, <span class="php-var">$instructors</span>))
+</span><span id="263" class="l"><a href="#263">263: </a>            {
+</span><span id="264" class="l"><a href="#264">264: </a>                <span class="php-var">$instructors</span>[<span class="php-var">$course_instructor</span>] = <span class="php-var">$this</span>-&gt;session-&gt;userdata(<span class="php-var">$course_instructor</span>);
+</span><span id="265" class="l"><a href="#265">265: </a>            }
+</span><span id="266" class="l"><a href="#266">266: </a>        }
+</span><span id="267" class="l"><a href="#267">267: </a>
+</span><span id="268" class="l"><a href="#268">268: </a>        <span class="php-keyword1">foreach</span> (<span class="php-var">$instructors</span> <span class="php-keyword1">as</span> <span class="php-var">$instructor</span>)
+</span><span id="269" class="l"><a href="#269">269: </a>        {
+</span><span id="270" class="l"><a href="#270">270: </a>            <span class="php-comment">// Step 5</span>
+</span><span id="271" class="l"><a href="#271">271: </a>            <span class="php-comment">//Only add user if the user doesn't already exist in the database.</span>
+</span><span id="272" class="l"><a href="#272">272: </a>            <span class="php-var">$user</span> = <span class="php-var">$this</span>-&gt;user_model-&gt;getInstructor(<span class="php-var">$instructor</span>[<span class="php-var">$this</span>-&gt;username]);
+</span><span id="273" class="l"><a href="#273">273: </a>
+</span><span id="274" class="l"><a href="#274">274: </a>            <span class="php-comment">// Step 6</span>
+</span><span id="275" class="l"><a href="#275">275: </a>            <span class="php-keyword1">if</span> (!<span class="php-var">$user</span>[<span class="php-quote">'valid'</span>])
+</span><span id="276" class="l"><a href="#276">276: </a>            {
+</span><span id="277" class="l"><a href="#277">277: </a>                <span class="php-var">$this</span>-&gt;user_model-&gt;addInstructor(<span class="php-var">$instructor</span>[<span class="php-var">$this</span>-&gt;name], <span class="php-var">$instructor</span>[<span class="php-var">$this</span>-&gt;username], <span class="php-quote">''</span>);
+</span><span id="278" class="l"><a href="#278">278: </a>            }
+</span><span id="279" class="l"><a href="#279">279: </a>        }
+</span><span id="280" class="l"><a href="#280">280: </a>
+</span><span id="281" class="l"><a href="#281">281: </a>        <span class="php-comment">// Step 7</span>
+</span><span id="282" class="l"><a href="#282">282: </a>        <span class="php-var">$this</span>-&gt;course_model-&gt;addCourses(<span class="php-var">$courses</span>);
+</span><span id="283" class="l"><a href="#283">283: </a>    }
+</span><span id="284" class="l"><a href="#284">284: </a>
+</span><span id="285" class="l"><a href="#285">285: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> GetStudentCount(<span class="php-var">$crn</span>)
+</span><span id="286" class="l"><a href="#286">286: </a>    {
+</span><span id="287" class="l"><a href="#287">287: </a>        <span class="php-keyword1">try</span>
+</span><span id="288" class="l"><a href="#288">288: </a>        {
+</span><span id="289" class="l"><a href="#289">289: </a>            <span class="php-var">$proxy</span> = <span class="php-keyword1">new</span> CourseEnrollmentEntities(<span class="php-var">$this</span>-&gt;serviceUrl);
+</span><span id="290" class="l"><a href="#290">290: </a>            <span class="php-keyword1">return</span> <span class="php-var">$proxy</span>-&gt;MEMBERS()-&gt;AddQueryOption(<span class="php-quote">'$filter'</span>,<span class="php-quote">&quot;CRN eq '</span><span class="php-var">$crn</span><span class="php-quote">' and ROLE ne 'faculty'&quot;</span>)-&gt;<span class="php-keyword2">Count</span>();
+</span><span id="291" class="l"><a href="#291">291: </a>        }
+</span><span id="292" class="l"><a href="#292">292: </a>        <span class="php-keyword1">catch</span> (ODataServiceException <span class="php-var">$e</span>)
+</span><span id="293" class="l"><a href="#293">293: </a>        {
+</span><span id="294" class="l"><a href="#294">294: </a>            <span class="php-keyword1">echo</span> <span class="php-quote">&quot;Error:&quot;</span> . <span class="php-var">$e</span>-&gt;getError() . <span class="php-quote">&quot;&lt;br&gt;&quot;</span> . <span class="php-quote">&quot;Detailed Error:&quot;</span> . <span class="php-var">$e</span>-&gt;getDetailedError();
+</span><span id="295" class="l"><a href="#295">295: </a>        }
+</span><span id="296" class="l"><a href="#296">296: </a>    }
+</span><span id="297" class="l"><a href="#297">297: </a>
+</span><span id="298" class="l"><a href="#298">298: </a>    <span class="php-comment">/*
+</span></span><span id="299" class="l"><a href="#299">299: </a><span class="php-comment">     * Name: RemoveCoursesInstructorsFromSession
+</span></span><span id="300" class="l"><a href="#300">300: </a><span class="php-comment">     * Description: Removes the instructors and courses from the session
+</span></span><span id="301" class="l"><a href="#301">301: </a><span class="php-comment">     * Parameters: None
+</span></span><span id="302" class="l"><a href="#302">302: </a><span class="php-comment">     * Return: None
+</span></span><span id="303" class="l"><a href="#303">303: </a><span class="php-comment">     * Documentation Modified: 3/4/14 (LW)
+</span></span><span id="304" class="l"><a href="#304">304: </a><span class="php-comment">     *
+</span></span><span id="305" class="l"><a href="#305">305: </a><span class="php-comment">     * 1) Retrieve the number of courses currently stored in the session.
+</span></span><span id="306" class="l"><a href="#306">306: </a><span class="php-comment">     * 2) For each course stored in the session, retrieve its unique key value.                 (L)
+</span></span><span id="307" class="l"><a href="#307">307: </a><span class="php-comment">     * 3) Delete each course's data from the session.                                           (L)
+</span></span><span id="308" class="l"><a href="#308">308: </a><span class="php-comment">     * 4) Remove the total number of courses from the session.
+</span></span><span id="309" class="l"><a href="#309">309: </a><span class="php-comment">     */</span>
+</span><span id="310" class="l"><a href="#310">310: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> RemoveCoursesInstructorsFromSession()
+</span><span id="311" class="l"><a href="#311">311: </a>    {
+</span><span id="312" class="l"><a href="#312">312: </a>        <span class="php-comment">// Step 1</span>
+</span><span id="313" class="l"><a href="#313">313: </a>        <span class="php-var">$course_count</span> = <span class="php-var">$this</span>-&gt;session-&gt;userdata(<span class="php-var">$this</span>-&gt;upload_course_count);
+</span><span id="314" class="l"><a href="#314">314: </a>        <span class="php-keyword1">if</span> (<span class="php-var">$course_count</span> != <span class="php-keyword1">false</span>)
+</span><span id="315" class="l"><a href="#315">315: </a>        {
+</span><span id="316" class="l"><a href="#316">316: </a>            <span class="php-keyword1">for</span> (<span class="php-var">$c</span> = <span class="php-num">0</span>; <span class="php-var">$c</span> &lt; <span class="php-var">$course_count</span>; <span class="php-var">$c</span>++)
+</span><span id="317" class="l"><a href="#317">317: </a>            {
+</span><span id="318" class="l"><a href="#318">318: </a>                <span class="php-comment">// Step 2</span>
+</span><span id="319" class="l"><a href="#319">319: </a>                <span class="php-var">$course</span> = <span class="php-var">$this</span>-&gt;session-&gt;userdata(<span class="php-var">$this</span>-&gt;upload_course_key . <span class="php-var">$c</span>);
+</span><span id="320" class="l"><a href="#320">320: </a>
+</span><span id="321" class="l"><a href="#321">321: </a>                <span class="php-comment">// Step 3</span>
+</span><span id="322" class="l"><a href="#322">322: </a>                <span class="php-var">$this</span>-&gt;session-&gt;unset_userdata(<span class="php-var">$course</span>[<span class="php-var">$this</span>-&gt;instructor]);
+</span><span id="323" class="l"><a href="#323">323: </a>                <span class="php-var">$this</span>-&gt;session-&gt;unset_userdata(<span class="php-var">$this</span>-&gt;upload_course_key . <span class="php-var">$c</span>);
+</span><span id="324" class="l"><a href="#324">324: </a>                <span class="php-var">$this</span>-&gt;session-&gt;unset_userdata(<span class="php-quote">'selected-'</span> . <span class="php-var">$this</span>-&gt;upload_course_key . <span class="php-var">$c</span>);
+</span><span id="325" class="l"><a href="#325">325: </a>            }
+</span><span id="326" class="l"><a href="#326">326: </a>
+</span><span id="327" class="l"><a href="#327">327: </a>            <span class="php-comment">// Step 4</span>
+</span><span id="328" class="l"><a href="#328">328: </a>            <span class="php-var">$this</span>-&gt;session-&gt;unset_userdata(<span class="php-var">$this</span>-&gt;upload_course_count);
+</span><span id="329" class="l"><a href="#329">329: </a>        }
+</span><span id="330" class="l"><a href="#330">330: </a>    }
+</span><span id="331" class="l"><a href="#331">331: </a>
+</span><span id="332" class="l"><a href="#332">332: </a>    <span class="php-comment">/*
+</span></span><span id="333" class="l"><a href="#333">333: </a><span class="php-comment">     * Name: RetrieveEntityInfo
+</span></span><span id="334" class="l"><a href="#334">334: </a><span class="php-comment">     * Description: Retrieves the entity info concerning entities in the ODATA service.
+</span></span><span id="335" class="l"><a href="#335">335: </a><span class="php-comment">     * (The method ParseODATAValues is the method that will take this data and assign it unique
+</span></span><span id="336" class="l"><a href="#336">336: </a><span class="php-comment">     * key values for insertion into the database.)
+</span></span><span id="337" class="l"><a href="#337">337: </a><span class="php-comment">     * Parameters: $array_a - the array containing the information on the first course, $array_b -
+</span></span><span id="338" class="l"><a href="#338">338: </a><span class="php-comment">     * the array containing the information on the second course
+</span></span><span id="339" class="l"><a href="#339">339: </a><span class="php-comment">     * Return: int -  the value which indicates the difference between the two courses
+</span></span><span id="340" class="l"><a href="#340">340: </a><span class="php-comment">     * Documentation Modified: 3/4/14 (LW)
+</span></span><span id="341" class="l"><a href="#341">341: </a><span class="php-comment">     *
+</span></span><span id="342" class="l"><a href="#342">342: </a><span class="php-comment">     * 1) Retrieve the course enrollment entities from the Eastern's ODATA service and expand the
+</span></span><span id="343" class="l"><a href="#343">343: </a><span class="php-comment">     * data to count the number of members.
+</span></span><span id="344" class="l"><a href="#344">344: </a><span class="php-comment">     * 2) Loop through each course entity and store its attributes (if the attribute does not
+</span></span><span id="345" class="l"><a href="#345">345: </a><span class="php-comment">     * match the property &quot;members&quot;).                                                           (L)
+</span></span><span id="346" class="l"><a href="#346">346: </a><span class="php-comment">     * 3) If the attribute matches the &quot;members&quot; property, count the number of members.         (L)
+</span></span><span id="347" class="l"><a href="#347">347: </a><span class="php-comment">     * 4) For each member in the &quot;members&quot; property attribute, check to see if that member
+</span></span><span id="348" class="l"><a href="#348">348: </a><span class="php-comment">     * is faculty. If so, add the member to the $expandFilterEntities array.                    (L)
+</span></span><span id="349" class="l"><a href="#349">349: </a><span class="php-comment">     * 5) Store the faculty member information in the $attributes array.                        (L)
+</span></span><span id="350" class="l"><a href="#350">350: </a><span class="php-comment">     * 6) Store the attributes in the $entities array.                                          (L)
+</span></span><span id="351" class="l"><a href="#351">351: </a><span class="php-comment">     * 7) If the ODATA service data requests fail, print out a detailed error message to the user.
+</span></span><span id="352" class="l"><a href="#352">352: </a><span class="php-comment">     * 8) Return the course and instructor information.
+</span></span><span id="353" class="l"><a href="#353">353: </a><span class="php-comment">     */</span>
+</span><span id="354" class="l"><a href="#354">354: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> RetrieveEntityInfo()
+</span><span id="355" class="l"><a href="#355">355: </a>    {
+</span><span id="356" class="l"><a href="#356">356: </a>        <span class="php-var">$memberFields</span> = <span class="php-keyword1">array</span>(<span class="php-quote">'FIRST_NAME'</span> =&gt; <span class="php-quote">'first_name'</span>,
+</span><span id="357" class="l"><a href="#357">357: </a>                      <span class="php-quote">'LAST_NAME'</span>  =&gt; <span class="php-quote">'last_name'</span>,
+</span><span id="358" class="l"><a href="#358">358: </a>                      <span class="php-quote">'ID'</span>         =&gt; <span class="php-quote">'id'</span>);
+</span><span id="359" class="l"><a href="#359">359: </a>
+</span><span id="360" class="l"><a href="#360">360: </a>        <span class="php-var">$courseFields</span> = <span class="php-keyword1">array</span>(<span class="php-quote">'TERM'</span>       =&gt; <span class="php-quote">'term'</span>,
+</span><span id="361" class="l"><a href="#361">361: </a>                              <span class="php-quote">'SUBJ'</span>       =&gt; <span class="php-quote">'subject'</span>,
+</span><span id="362" class="l"><a href="#362">362: </a>                              <span class="php-quote">'TITLE'</span>      =&gt; <span class="php-quote">'title'</span>,
+</span><span id="363" class="l"><a href="#363">363: </a>                              <span class="php-quote">'CRSENUMB'</span>   =&gt; <span class="php-quote">'number'</span>,
+</span><span id="364" class="l"><a href="#364">364: </a>                              <span class="php-quote">'SECTION'</span>    =&gt; <span class="php-quote">'section'</span>,
+</span><span id="365" class="l"><a href="#365">365: </a>                              <span class="php-quote">'START_DATE'</span> =&gt; <span class="php-quote">'start_date'</span>,
+</span><span id="366" class="l"><a href="#366">366: </a>                              <span class="php-quote">'END_DATE'</span>   =&gt; <span class="php-quote">'end_date'</span>,
+</span><span id="367" class="l"><a href="#367">367: </a>                              <span class="php-quote">'CRN'</span>        =&gt; <span class="php-quote">'crn'</span>);
+</span><span id="368" class="l"><a href="#368">368: </a>    
+</span><span id="369" class="l"><a href="#369">369: </a>        <span class="php-var">$entities</span> = <span class="php-keyword1">array</span>();
+</span><span id="370" class="l"><a href="#370">370: </a>
+</span><span id="371" class="l"><a href="#371">371: </a>        <span class="php-keyword1">try</span>
+</span><span id="372" class="l"><a href="#372">372: </a>        {
+</span><span id="373" class="l"><a href="#373">373: </a>            <span class="php-var">$proxy</span> = <span class="php-keyword1">null</span>;
+</span><span id="374" class="l"><a href="#374">374: </a>            <span class="php-var">$entityResponse</span> = <span class="php-keyword1">null</span>;
+</span><span id="375" class="l"><a href="#375">375: </a>            <span class="php-var">$nextEntityToken</span> = <span class="php-keyword1">null</span>;
+</span><span id="376" class="l"><a href="#376">376: </a>
+</span><span id="377" class="l"><a href="#377">377: </a>            <span class="php-comment">/*
+</span></span><span id="378" class="l"><a href="#378">378: </a><span class="php-comment">             * if we do not have a serialized version of the data needed to do this offline, then have to pull it
+</span></span><span id="379" class="l"><a href="#379">379: </a><span class="php-comment">             */</span>
+</span><span id="380" class="l"><a href="#380">380: </a>            <span class="php-keyword1">if</span>(!<span class="php-keyword2">file_exists</span>(<span class="php-quote">'dumps\course_entity.txt'</span>) || !<span class="php-keyword2">file_exists</span>(<span class="php-quote">'dumps\query_op.txt'</span>))
+</span><span id="381" class="l"><a href="#381">381: </a>            {
+</span><span id="382" class="l"><a href="#382">382: </a>                <span class="php-var">$proxy</span> = <span class="php-keyword1">new</span> CourseEnrollmentEntities(<span class="php-var">$this</span>-&gt;serviceUrl);
+</span><span id="383" class="l"><a href="#383">383: </a>                <span class="php-var">$query</span> = <span class="php-var">$proxy</span>-&gt;MEMBERS()-&gt;Expand(<span class="php-quote">'COURSES'</span>)-&gt;AddQueryOption(<span class="php-quote">'$filter'</span>, <span class="php-quote">&quot;ROLE eq 'faculty'&quot;</span>)-&gt;IncludeTotalCount();
+</span><span id="384" class="l"><a href="#384">384: </a>                <span class="php-var">$entityResponse</span> = <span class="php-var">$query</span>-&gt;Execute();
+</span><span id="385" class="l"><a href="#385">385: </a>            }
+</span><span id="386" class="l"><a href="#386">386: </a>            <span class="php-keyword1">else</span>
+</span><span id="387" class="l"><a href="#387">387: </a>            {
+</span><span id="388" class="l"><a href="#388">388: </a>                <span class="php-var">$proxy</span> = <span class="php-keyword2">unserialize</span>(<span class="php-keyword2">file_get_contents</span>(<span class="php-quote">'dumps\course_entity.txt'</span>));
+</span><span id="389" class="l"><a href="#389">389: </a>                <span class="php-var">$entityResponse</span> = <span class="php-keyword2">unserialize</span>(<span class="php-keyword2">file_get_contents</span>(<span class="php-quote">'dumps\query_op.txt'</span>));
+</span><span id="390" class="l"><a href="#390">390: </a>            }
+</span><span id="391" class="l"><a href="#391">391: </a>            <span class="php-comment">// loop through entity responses</span>
+</span><span id="392" class="l"><a href="#392">392: </a>            <span class="php-keyword1">do</span>
+</span><span id="393" class="l"><a href="#393">393: </a>            {
+</span><span id="394" class="l"><a href="#394">394: </a>                <span class="php-var">$attributes</span> = <span class="php-keyword1">array</span>();
+</span><span id="395" class="l"><a href="#395">395: </a>                
+</span><span id="396" class="l"><a href="#396">396: </a>                <span class="php-keyword1">if</span> (<span class="php-var">$nextEntityToken</span> != <span class="php-keyword1">null</span>)
+</span><span id="397" class="l"><a href="#397">397: </a>                {
+</span><span id="398" class="l"><a href="#398">398: </a>                    <span class="php-var">$entityResponse</span> = <span class="php-var">$proxy</span>-&gt;Execute(<span class="php-var">$nextEntityToken</span>);
+</span><span id="399" class="l"><a href="#399">399: </a>                }
+</span><span id="400" class="l"><a href="#400">400: </a>                
+</span><span id="401" class="l"><a href="#401">401: </a>                <span class="php-comment">// loop through entities</span>
+</span><span id="402" class="l"><a href="#402">402: </a>                <span class="php-keyword1">foreach</span> (<span class="php-var">$entityResponse</span>-&gt;Result <span class="php-keyword1">as</span> <span class="php-var">$entityObject</span>)
+</span><span id="403" class="l"><a href="#403">403: </a>                {
+</span><span id="404" class="l"><a href="#404">404: </a>                    <span class="php-var">$courses</span> = <span class="php-var">$entityObject</span>-&gt;COURSES[<span class="php-num">0</span>];
+</span><span id="405" class="l"><a href="#405">405: </a>                    <span class="php-var">$attributes</span>[<span class="php-quote">'members'</span>] = <span class="php-keyword1">array</span>();
+</span><span id="406" class="l"><a href="#406">406: </a>                    <span class="php-var">$attributes</span>[<span class="php-quote">'members'</span>][<span class="php-num">0</span>] = <span class="php-keyword1">array</span>();
+</span><span id="407" class="l"><a href="#407">407: </a>
+</span><span id="408" class="l"><a href="#408">408: </a>                    <span class="php-comment">// go through course fields</span>
+</span><span id="409" class="l"><a href="#409">409: </a>                    <span class="php-keyword1">foreach</span> (<span class="php-var">$courseFields</span> <span class="php-keyword1">as</span> <span class="php-var">$field</span> =&gt; <span class="php-var">$attr</span>)
+</span><span id="410" class="l"><a href="#410">410: </a>                    {
+</span><span id="411" class="l"><a href="#411">411: </a>                        <span class="php-var">$attributes</span>[<span class="php-var">$attr</span>] = <span class="php-var">$courses</span>-&gt;<span class="php-var">$field</span>;
+</span><span id="412" class="l"><a href="#412">412: </a>                    }
+</span><span id="413" class="l"><a href="#413">413: </a>
+</span><span id="414" class="l"><a href="#414">414: </a>                    <span class="php-comment">// go through member fields</span>
+</span><span id="415" class="l"><a href="#415">415: </a>                    <span class="php-keyword1">foreach</span> (<span class="php-var">$memberFields</span> <span class="php-keyword1">as</span> <span class="php-var">$field</span> =&gt; <span class="php-var">$attr</span>)
+</span><span id="416" class="l"><a href="#416">416: </a>                    {
+</span><span id="417" class="l"><a href="#417">417: </a>                        <span class="php-var">$attributes</span>[<span class="php-quote">'members'</span>][<span class="php-num">0</span>][<span class="php-var">$attr</span>] = <span class="php-var">$entityObject</span>-&gt;<span class="php-var">$field</span>;
+</span><span id="418" class="l"><a href="#418">418: </a>                    }
+</span><span id="419" class="l"><a href="#419">419: </a>
+</span><span id="420" class="l"><a href="#420">420: </a>                    <span class="php-var">$entities</span>[] = <span class="php-var">$attributes</span>;
+</span><span id="421" class="l"><a href="#421">421: </a>                }
+</span><span id="422" class="l"><a href="#422">422: </a>            }
+</span><span id="423" class="l"><a href="#423">423: </a>            <span class="php-keyword1">while</span> ((<span class="php-var">$nextEntityToken</span> = <span class="php-var">$entityResponse</span>-&gt;GetContinuation()) != <span class="php-keyword1">null</span>);
+</span><span id="424" class="l"><a href="#424">424: </a>        }
+</span><span id="425" class="l"><a href="#425">425: </a>        <span class="php-keyword1">catch</span> (DataServiceRequestException <span class="php-var">$ex</span>)
+</span><span id="426" class="l"><a href="#426">426: </a>        {
+</span><span id="427" class="l"><a href="#427">427: </a><span class="php-comment">//            echo 'Error: while running the query ' . $ex-&gt;Response-&gt;getQuery();</span>
+</span><span id="428" class="l"><a href="#428">428: </a><span class="php-comment">//            echo &quot;&lt;br/&gt;&quot;;</span>
+</span><span id="429" class="l"><a href="#429">429: </a><span class="php-comment">//            echo $ex-&gt;Response-&gt;getError();</span>
+</span><span id="430" class="l"><a href="#430">430: </a>        }
+</span><span id="431" class="l"><a href="#431">431: </a>        <span class="php-keyword1">catch</span> (ODataServiceException <span class="php-var">$e</span>)
+</span><span id="432" class="l"><a href="#432">432: </a>        {
+</span><span id="433" class="l"><a href="#433">433: </a>            <span class="php-keyword1">echo</span> <span class="php-quote">&quot;Error:&quot;</span> . <span class="php-var">$e</span>-&gt;getError() . <span class="php-quote">&quot;&lt;br&gt;&quot;</span> . <span class="php-quote">&quot;Detailed Error:&quot;</span> . <span class="php-var">$e</span>-&gt;getDetailedError();
+</span><span id="434" class="l"><a href="#434">434: </a>        }
+</span><span id="435" class="l"><a href="#435">435: </a>
+</span><span id="436" class="l"><a href="#436">436: </a>        <span class="php-comment">// Step 8</span>
+</span><span id="437" class="l"><a href="#437">437: </a>        <span class="php-keyword1">return</span> <span class="php-var">$entities</span>;
+</span><span id="438" class="l"><a href="#438">438: </a>    }
+</span><span id="439" class="l"><a href="#439">439: </a>
+</span><span id="440" class="l"><a href="#440">440: </a>    <span class="php-comment">/*
+</span></span><span id="441" class="l"><a href="#441">441: </a><span class="php-comment">     * Name: ParseODataValues
+</span></span><span id="442" class="l"><a href="#442">442: </a><span class="php-comment">     * Description: Extracts the data from the entities return by Eastern's ODATA service -
+</span></span><span id="443" class="l"><a href="#443">443: </a><span class="php-comment">     * &quot;instructor&quot; from &quot;members&quot;. as well as &quot;quarter&quot; and &quot;year&quot; from &quot;term&quot;. The values are then
+</span></span><span id="444" class="l"><a href="#444">444: </a><span class="php-comment">     * unset. Quarter, year, and instructor information is then stored into each course and
+</span></span><span id="445" class="l"><a href="#445">445: </a><span class="php-comment">     * course evaluation dates are generated.
+</span></span><span id="446" class="l"><a href="#446">446: </a><span class="php-comment">     * Parameters: $entities - the collection of data entities from the ODATA service, &amp;$courses -
+</span></span><span id="447" class="l"><a href="#447">447: </a><span class="php-comment">     * the array of data that will contain the course information, &amp;$instructors - the array of
+</span></span><span id="448" class="l"><a href="#448">448: </a><span class="php-comment">     * data that will contain instructor information
+</span></span><span id="449" class="l"><a href="#449">449: </a><span class="php-comment">     * Return: None
+</span></span><span id="450" class="l"><a href="#450">450: </a><span class="php-comment">     * Documentation Modified: 3/4/14 (LW)
+</span></span><span id="451" class="l"><a href="#451">451: </a><span class="php-comment">     *
+</span></span><span id="452" class="l"><a href="#452">452: </a><span class="php-comment">     * 1) Create arrays to hold the names, emails, and IDs of instructors.
+</span></span><span id="453" class="l"><a href="#453">453: </a><span class="php-comment">     * 2) For each attribute contained in an ODATA entity, retrieve the information
+</span></span><span id="454" class="l"><a href="#454">454: </a><span class="php-comment">     * concerning the course instructor and store the information in the names,
+</span></span><span id="455" class="l"><a href="#455">455: </a><span class="php-comment">     * emails, and IDs arrays (the ID is a generated hash code).                            (L)
+</span></span><span id="456" class="l"><a href="#456">456: </a><span class="php-comment">     * 3) Once the information about the instructors for a course is stored, remove
+</span></span><span id="457" class="l"><a href="#457">457: </a><span class="php-comment">     * the instructor information from the session.
+</span></span><span id="458" class="l"><a href="#458">458: </a><span class="php-comment">     * 4) Retrieve and store the current year and quarter information from the ODATA
+</span></span><span id="459" class="l"><a href="#459">459: </a><span class="php-comment">     * entities.
+</span></span><span id="460" class="l"><a href="#460">460: </a><span class="php-comment">     * 5) Once the year and quarter information has been stored, remove the data
+</span></span><span id="461" class="l"><a href="#461">461: </a><span class="php-comment">     * from the session.
+</span></span><span id="462" class="l"><a href="#462">462: </a><span class="php-comment">     * 6) Retrieve and store the starting and ending dates for each course.
+</span></span><span id="463" class="l"><a href="#463">463: </a><span class="php-comment">     * 7) Calculate the starting and ending dates for the evaluation period for a course,
+</span></span><span id="464" class="l"><a href="#464">464: </a><span class="php-comment">     * based on 75% of the difference between the course start and end dates.
+</span></span><span id="465" class="l"><a href="#465">465: </a><span class="php-comment">     * 8) Store the course attributes (instructor, year, quarter, start date, end date,
+</span></span><span id="466" class="l"><a href="#466">466: </a><span class="php-comment">     * and evaluation dates included).
+</span></span><span id="467" class="l"><a href="#467">467: </a><span class="php-comment">     * 9) Count the number of instructors that teach that particular course.
+</span></span><span id="468" class="l"><a href="#468">468: </a><span class="php-comment">     * 10) Store each instructor that teaches that particular course in the $instructors
+</span></span><span id="469" class="l"><a href="#469">469: </a><span class="php-comment">     * array.                                                                               (L)
+</span></span><span id="470" class="l"><a href="#470">470: </a><span class="php-comment">     */</span>
+</span><span id="471" class="l"><a href="#471">471: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> ParseODataValues(<span class="php-var">$entities</span>, &amp;<span class="php-var">$courses</span>, &amp;<span class="php-var">$instructors</span>)
+</span><span id="472" class="l"><a href="#472">472: </a>    {
+</span><span id="473" class="l"><a href="#473">473: </a>        <span class="php-comment">// Step 1</span>
+</span><span id="474" class="l"><a href="#474">474: </a>        <span class="php-var">$names</span> = <span class="php-keyword1">array</span>();
+</span><span id="475" class="l"><a href="#475">475: </a>        <span class="php-var">$emails</span> = <span class="php-keyword1">array</span>();
+</span><span id="476" class="l"><a href="#476">476: </a>        <span class="php-var">$ids</span> = <span class="php-keyword1">array</span>();
+</span><span id="477" class="l"><a href="#477">477: </a>        <span class="php-var">$course_count</span> = <span class="php-num">0</span>;
+</span><span id="478" class="l"><a href="#478">478: </a>
+</span><span id="479" class="l"><a href="#479">479: </a>        <span class="php-keyword1">foreach</span> (<span class="php-var">$entities</span> <span class="php-keyword1">as</span> <span class="php-var">$attributes</span>)
+</span><span id="480" class="l"><a href="#480">480: </a>        {
+</span><span id="481" class="l"><a href="#481">481: </a>            <span class="php-comment">// Step 2</span>
+</span><span id="482" class="l"><a href="#482">482: </a>            <span class="php-var">$attributes</span>[<span class="php-var">$this</span>-&gt;instructor] = <span class="php-keyword1">array</span>();
+</span><span id="483" class="l"><a href="#483">483: </a>            <span class="php-comment">/*Get Instructor, if there is one then proceed*/</span>
+</span><span id="484" class="l"><a href="#484">484: </a>            <span class="php-var">$members</span> = <span class="php-var">$attributes</span>[<span class="php-quote">'members'</span>];
+</span><span id="485" class="l"><a href="#485">485: </a>            <span class="php-comment">//print_r($members); // DEBUG 4/11/14</span>
+</span><span id="486" class="l"><a href="#486">486: </a>            <span class="php-keyword1">if</span> (<span class="php-keyword1">empty</span>(<span class="php-var">$members</span>)) <span class="php-comment">// No data supplied for instructor - add a temporary fix</span>
+</span><span id="487" class="l"><a href="#487">487: </a>            {
+</span><span id="488" class="l"><a href="#488">488: </a>                <span class="php-var">$members</span> = <span class="php-keyword1">array</span>(<span class="php-keyword1">array</span>(<span class="php-quote">'first_name'</span> =&gt; <span class="php-quote">'TBA'</span>, <span class="php-quote">'last_name'</span> =&gt; <span class="php-quote">'TBA'</span>, <span class="php-quote">'id'</span> =&gt; <span class="php-quote">'00000000'</span>));
+</span><span id="489" class="l"><a href="#489">489: </a>                <span class="php-comment">//$members = $attributes['members'];</span>
+</span><span id="490" class="l"><a href="#490">490: </a>            }
+</span><span id="491" class="l"><a href="#491">491: </a>            <span class="php-keyword1">else</span>
+</span><span id="492" class="l"><a href="#492">492: </a>            {
+</span><span id="493" class="l"><a href="#493">493: </a>                <span class="php-keyword1">foreach</span> (<span class="php-var">$members</span> <span class="php-keyword1">as</span> <span class="php-var">$member</span>)
+</span><span id="494" class="l"><a href="#494">494: </a>                {
+</span><span id="495" class="l"><a href="#495">495: </a>                    <span class="php-var">$first_name</span> = <span class="php-var">$member</span>[<span class="php-quote">'first_name'</span>];
+</span><span id="496" class="l"><a href="#496">496: </a>                    <span class="php-var">$last_name</span> = <span class="php-var">$member</span>[<span class="php-quote">'last_name'</span>];
+</span><span id="497" class="l"><a href="#497">497: </a>                    <span class="php-var">$attributes</span>[<span class="php-quote">'instructor'</span>] = <span class="php-var">$first_name</span> . <span class="php-quote">&quot; &quot;</span> . <span class="php-var">$last_name</span>;
+</span><span id="498" class="l"><a href="#498">498: </a>                    <span class="php-keyword1">if</span> (!<span class="php-keyword2">in_array</span>(<span class="php-var">$attributes</span>[<span class="php-quote">'instructor'</span>], <span class="php-var">$names</span>))
+</span><span id="499" class="l"><a href="#499">499: </a>                    {
+</span><span id="500" class="l"><a href="#500">500: </a>                        <span class="php-var">$names</span>[] = <span class="php-var">$attributes</span>[<span class="php-quote">'instructor'</span>];
+</span><span id="501" class="l"><a href="#501">501: </a>                        <span class="php-comment">//The following statement is necessary so that the instructor's id is not divulged but at the same time they can</span>
+</span><span id="502" class="l"><a href="#502">502: </a>                        <span class="php-comment">//be still uniquely identified.</span>
+</span><span id="503" class="l"><a href="#503">503: </a>                        <span class="php-var">$hash</span> = do_hash(<span class="php-var">$member</span>[<span class="php-quote">'id'</span>], <span class="php-quote">'md5'</span>);
+</span><span id="504" class="l"><a href="#504">504: </a>                        <span class="php-var">$ids</span>[] = <span class="php-var">$hash</span>;
+</span><span id="505" class="l"><a href="#505">505: </a>                        <span class="php-comment">//$emails[] = $member-&gt;EMAIL;</span>
+</span><span id="506" class="l"><a href="#506">506: </a>                    }
+</span><span id="507" class="l"><a href="#507">507: </a>                    <span class="php-comment">// Step 3</span>
+</span><span id="508" class="l"><a href="#508">508: </a>                    <span class="php-keyword1">unset</span>(<span class="php-var">$attributes</span>[<span class="php-quote">'members'</span>]);
+</span><span id="509" class="l"><a href="#509">509: </a>                }
+</span><span id="510" class="l"><a href="#510">510: </a>                <span class="php-comment">// Step 4</span>
+</span><span id="511" class="l"><a href="#511">511: </a>                <span class="php-comment">/*Get Year and Quarter*/</span>
+</span><span id="512" class="l"><a href="#512">512: </a>                <span class="php-var">$value</span> = <span class="php-var">$attributes</span>[<span class="php-quote">'term'</span>];
+</span><span id="513" class="l"><a href="#513">513: </a>                <span class="php-var">$pattern</span> = <span class="php-quote">&quot;/(?P&lt;year&gt;[[:digit:]]{4})(?P&lt;quarter&gt;[[:digit:]]{2})/&quot;</span>;
+</span><span id="514" class="l"><a href="#514">514: </a>                <span class="php-var">$success</span> = <span class="php-keyword2">preg_match</span>(<span class="php-var">$pattern</span>, <span class="php-var">$value</span>, <span class="php-var">$matches</span>);
+</span><span id="515" class="l"><a href="#515">515: </a>                <span class="php-keyword1">if</span> (<span class="php-var">$success</span>)
+</span><span id="516" class="l"><a href="#516">516: </a>                {
+</span><span id="517" class="l"><a href="#517">517: </a>                    <span class="php-var">$attributes</span>[<span class="php-quote">'year'</span>] = <span class="php-var">$matches</span>[<span class="php-quote">'year'</span>];
+</span><span id="518" class="l"><a href="#518">518: </a>                    <span class="php-var">$attributes</span>[<span class="php-quote">'quarter'</span>] = <span class="php-var">$matches</span>[<span class="php-quote">'quarter'</span>];
+</span><span id="519" class="l"><a href="#519">519: </a>                }
+</span><span id="520" class="l"><a href="#520">520: </a>                <span class="php-comment">// Step 5</span>
+</span><span id="521" class="l"><a href="#521">521: </a>                <span class="php-keyword1">unset</span>(<span class="php-var">$attributes</span>[<span class="php-quote">'term'</span>]);
+</span><span id="522" class="l"><a href="#522">522: </a>
+</span><span id="523" class="l"><a href="#523">523: </a>                <span class="php-comment">// Step 6</span>
+</span><span id="524" class="l"><a href="#524">524: </a>                <span class="php-comment">/*Get Dates : ####-##-##*/</span>
+</span><span id="525" class="l"><a href="#525">525: </a>                <span class="php-var">$start_date</span> = <span class="php-var">$attributes</span>[<span class="php-quote">'start_date'</span>];
+</span><span id="526" class="l"><a href="#526">526: </a>                <span class="php-var">$end_date</span> = <span class="php-var">$attributes</span>[<span class="php-quote">'end_date'</span>];
+</span><span id="527" class="l"><a href="#527">527: </a>                <span class="php-var">$pattern</span> = <span class="php-quote">&quot;/([[:digit:]]{4}-[[:digit:]]{2}-[[:digit:]]{2})/&quot;</span>;
+</span><span id="528" class="l"><a href="#528">528: </a>
+</span><span id="529" class="l"><a href="#529">529: </a>                <span class="php-var">$success</span> = <span class="php-keyword2">preg_match</span>(<span class="php-var">$pattern</span>, <span class="php-var">$start_date</span>, <span class="php-var">$matches</span>);
+</span><span id="530" class="l"><a href="#530">530: </a>                <span class="php-keyword1">if</span> (<span class="php-var">$success</span>)
+</span><span id="531" class="l"><a href="#531">531: </a>                {
+</span><span id="532" class="l"><a href="#532">532: </a>                    <span class="php-var">$attributes</span>[<span class="php-quote">'start_date'</span>] = <span class="php-var">$matches</span>[<span class="php-num">1</span>];
+</span><span id="533" class="l"><a href="#533">533: </a>                }
+</span><span id="534" class="l"><a href="#534">534: </a>
+</span><span id="535" class="l"><a href="#535">535: </a>                <span class="php-var">$success</span> = <span class="php-keyword2">preg_match</span>(<span class="php-var">$pattern</span>, <span class="php-var">$end_date</span>, <span class="php-var">$matches</span>);
+</span><span id="536" class="l"><a href="#536">536: </a>                <span class="php-keyword1">if</span> (<span class="php-var">$success</span>)
+</span><span id="537" class="l"><a href="#537">537: </a>                {
+</span><span id="538" class="l"><a href="#538">538: </a>                    <span class="php-var">$attributes</span>[<span class="php-quote">'end_date'</span>] = <span class="php-var">$matches</span>[<span class="php-num">1</span>];
+</span><span id="539" class="l"><a href="#539">539: </a>                }
+</span><span id="540" class="l"><a href="#540">540: </a>                <span class="php-comment">// Step 7</span>
+</span><span id="541" class="l"><a href="#541">541: </a>                <span class="php-comment">//Find eval start based on 75% of days during the diff period between start and end dates</span>
+</span><span id="542" class="l"><a href="#542">542: </a>                <span class="php-comment">// Here for legacy purposes. This algorithm is no longer used.</span>
+</span><span id="543" class="l"><a href="#543">543: </a>                <span class="php-var">$start</span> = <span class="php-keyword2">date_create</span>(<span class="php-var">$attributes</span>[<span class="php-quote">'start_date'</span>]);
+</span><span id="544" class="l"><a href="#544">544: </a>                <span class="php-var">$end</span> = <span class="php-keyword2">date_create</span>(<span class="php-var">$attributes</span>[<span class="php-quote">'end_date'</span>]);
+</span><span id="545" class="l"><a href="#545">545: </a>                <span class="php-var">$interval</span> = <span class="php-keyword2">date_diff</span>(<span class="php-var">$start</span>, <span class="php-var">$end</span>);
+</span><span id="546" class="l"><a href="#546">546: </a>                <span class="php-var">$timespan</span> = <span class="php-var">$interval</span>-&gt;format(<span class="php-quote">'%a'</span>);
+</span><span id="547" class="l"><a href="#547">547: </a>                <span class="php-var">$onepercent_days</span> = <span class="php-var">$timespan</span> / <span class="php-num">100</span>;
+</span><span id="548" class="l"><a href="#548">548: </a>                <span class="php-var">$days_from_start</span> = (int)(<span class="php-var">$onepercent_days</span> * <span class="php-num">75</span>);
+</span><span id="549" class="l"><a href="#549">549: </a>                <span class="php-keyword2">date_add</span>(<span class="php-var">$start</span>, <span class="php-keyword2">date_interval_create_from_date_string</span>(<span class="php-var">$days_from_start</span> . <span class="php-quote">' days'</span>));
+</span><span id="550" class="l"><a href="#550">550: </a>
+</span><span id="551" class="l"><a href="#551">551: </a>                <span class="php-var">$eval_interval</span> = <span class="php-keyword2">date_diff</span>(<span class="php-var">$start</span>, <span class="php-var">$end</span>);
+</span><span id="552" class="l"><a href="#552">552: </a>                <span class="php-var">$eval_timespan</span> = <span class="php-var">$eval_interval</span>-&gt;format(<span class="php-quote">'%a'</span>);
+</span><span id="553" class="l"><a href="#553">553: </a>                <span class="php-keyword1">if</span> (<span class="php-var">$eval_timespan</span> &lt; <span class="php-num">7</span>)
+</span><span id="554" class="l"><a href="#554">554: </a>                {
+</span><span id="555" class="l"><a href="#555">555: </a>                    <span class="php-var">$diff</span> = <span class="php-num">7</span> - <span class="php-var">$eval_timespan</span>;
+</span><span id="556" class="l"><a href="#556">556: </a>                    <span class="php-keyword2">date_sub</span>(<span class="php-var">$start</span>, <span class="php-keyword2">date_interval_create_from_date_string</span>(<span class="php-var">$diff</span> . <span class="php-quote">' days'</span>));
+</span><span id="557" class="l"><a href="#557">557: </a>                }
+</span><span id="558" class="l"><a href="#558">558: </a>                <span class="php-var">$attributes</span>[<span class="php-quote">'eval_start_date'</span>] = <span class="php-var">$start</span>-&gt;format(<span class="php-quote">'Y-m-d'</span>);
+</span><span id="559" class="l"><a href="#559">559: </a>                <span class="php-var">$attributes</span>[<span class="php-quote">'eval_end_date'</span>] = <span class="php-var">$end</span>-&gt;format(<span class="php-quote">'Y-m-d'</span>);
+</span><span id="560" class="l"><a href="#560">560: </a>
+</span><span id="561" class="l"><a href="#561">561: </a>                <span class="php-comment">// Step 8</span>
+</span><span id="562" class="l"><a href="#562">562: </a>                <span class="php-comment">/*Store the COURSE's attributes*/</span>
+</span><span id="563" class="l"><a href="#563">563: </a>                <span class="php-var">$courses</span>[] = <span class="php-var">$attributes</span>;
+</span><span id="564" class="l"><a href="#564">564: </a>                <span class="php-var">$course_count</span>++;
+</span><span id="565" class="l"><a href="#565">565: </a>            }
+</span><span id="566" class="l"><a href="#566">566: </a>        }
+</span><span id="567" class="l"><a href="#567">567: </a>        <span class="php-comment">// Step 9</span>
+</span><span id="568" class="l"><a href="#568">568: </a>        <span class="php-var">$instructor_count</span> = <span class="php-keyword2">count</span>(<span class="php-var">$names</span>);
+</span><span id="569" class="l"><a href="#569">569: </a>
+</span><span id="570" class="l"><a href="#570">570: </a>        <span class="php-comment">// Step 10</span>
+</span><span id="571" class="l"><a href="#571">571: </a>        <span class="php-keyword1">for</span> (<span class="php-var">$i</span> = <span class="php-num">0</span>; <span class="php-var">$i</span> &lt; <span class="php-var">$instructor_count</span>; <span class="php-var">$i</span>++)
+</span><span id="572" class="l"><a href="#572">572: </a>        {
+</span><span id="573" class="l"><a href="#573">573: </a>            <span class="php-var">$instructors</span>[<span class="php-var">$names</span>[<span class="php-var">$i</span>]] = <span class="php-keyword1">array</span>(<span class="php-var">$this</span>-&gt;name =&gt; <span class="php-var">$names</span>[<span class="php-var">$i</span>], <span class="php-var">$this</span>-&gt;username =&gt; <span class="php-var">$ids</span>[<span class="php-var">$i</span>]);<span class="php-comment">//,'email' =&gt; $emails[$i]);</span>
+</span><span id="574" class="l"><a href="#574">574: </a>        }
+</span><span id="575" class="l"><a href="#575">575: </a>    }
+</span><span id="576" class="l"><a href="#576">576: </a>
+</span><span id="577" class="l"><a href="#577">577: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> GetQuarterSubjectInfo()
+</span><span id="578" class="l"><a href="#578">578: </a>    {
+</span><span id="579" class="l"><a href="#579">579: </a>        <span class="php-keyword1">return</span> <span class="php-keyword1">array</span>(<span class="php-var">$this</span>-&gt;year =&gt; <span class="php-var">$this</span>-&gt;course_model-&gt;getCurrentYear(), <span class="php-var">$this</span>-&gt;term =&gt; <span class="php-var">$this</span>-&gt;course_model-&gt;getCurrentTerm(), <span class="php-quote">&quot;subjects&quot;</span> =&gt; <span class="php-var">$this</span>-&gt;course_model-&gt;getCurrentSubjects());
+</span><span id="580" class="l"><a href="#580">580: </a>    }
+</span><span id="581" class="l"><a href="#581">581: </a>
+</span><span id="582" class="l"><a href="#582">582: </a>    <span class="php-keyword1">public</span> <span class="php-keyword1">function</span> GetFormattedTermData()
+</span><span id="583" class="l"><a href="#583">583: </a>    {
+</span><span id="584" class="l"><a href="#584">584: </a>        <span class="php-var">$newTermData</span>[<span class="php-var">$this</span>-&gt;term] = <span class="php-var">$this</span>-&gt;course_model-&gt;termNumToName(<span class="php-var">$this</span>-&gt;course_model-&gt;getCurrentTerm());
+</span><span id="585" class="l"><a href="#585">585: </a>        <span class="php-var">$newTermData</span>[<span class="php-quote">'subjects'</span>] = <span class="php-keyword2">implode</span>(<span class="php-quote">', '</span>, <span class="php-var">$this</span>-&gt;course_model-&gt;getCurrentSubjects());
+</span><span id="586" class="l"><a href="#586">586: </a>        <span class="php-keyword1">return</span> <span class="php-var">$newTermData</span>;
+</span><span id="587" class="l"><a href="#587">587: </a>    }
+</span><span id="588" class="l"><a href="#588">588: </a>}</span></code></pre>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js?42f459ff6512d7d82e178b01635e155be46271e3"></script>
+<script src="elementlist.js?f8e19c0b98cf7d48f39bb5633d23bf8e0b0b28fe"></script>
+</body>
+</html>

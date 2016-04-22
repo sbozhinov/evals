@@ -1,0 +1,68 @@
+#evaluations-table, #evaluation {
+    .course-link {
+        font-weight: bold;
+    }
+
+    tbody tr:hover {
+        background: rgba(255,255,255,0.6);
+    }
+}
+
+#evaluation {
+    margin: 20px 0;
+
+    &, #evaluation th {
+        text-align: center;
+    }
+
+    tr.legend > th {
+        border-bottom: none;
+        color: #777;
+        font-weight: normal;
+
+        .glyphicon {
+            margin: 0 20px;
+            color: #CCC;
+        }
+    }
+
+    input[type='radio'] {
+        margin-top: 10px;
+    }    
+
+    .num {
+        margin-right: 16px;
+        color: rgba(0,0,0,0.5);
+    }    
+
+    .description {
+        text-align: left;
+        padding-top: 25px;
+
+        &::after {
+            content: '...';
+            margin-left: 10px;
+            color: rgba(0,0,0,0.3);
+        }
+    }
+
+    label {
+        margin: 0;
+        padding: 10px;
+    }
+
+    #comments {
+        font-size: 14pt;
+        resize: vertical;
+        margin-bottom: 14px;
+    }
+
+    .comment-box {
+        resize: vertical;
+        min-width: 300px;
+    }
+
+    input[type="submit"] {
+        margin: 20px 10px;
+    }
+}

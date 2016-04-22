@@ -1,0 +1,3110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xml:base="https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/" xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices" xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://www.w3.org/2005/Atom">
+  <title type="text">MEMBERS</title>
+  <id>https://webapps.eastern.ewu.edu/datainterfaces/CourseEnrollment.svc/MEMBERS</id>
+  <updated>2015-02-20T22:16:35Z</updated>
+  <link rel="self" title="MEMBERS" href="MEMBERS" />
+  <m:count>66</m:count>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10311',ID='00734694',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10311',ID='00734694',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10311',ID='00734694',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10311',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10311',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10311',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10311</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>100</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>COMPUTER LITERACY I</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-02-06T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10311</d:CRN>
+        <d:ID>00734694</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Herve</d:LAST_NAME>
+        <d:FIRST_NAME>Daniel</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10312',ID='00047128',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10312',ID='00047128',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10312',ID='00047128',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10312',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10312',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10312',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10312</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>100</d:CRSENUMB>
+              <d:SECTION>02</d:SECTION>
+              <d:TITLE>COMPUTER LITERACY I</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-02-06T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10312</d:CRN>
+        <d:ID>00047128</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Lemelin</d:LAST_NAME>
+        <d:FIRST_NAME>Robert</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10313',ID='00047128',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10313',ID='00047128',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10313',ID='00047128',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10313',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10313',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10313',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10313</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>100</d:CRSENUMB>
+              <d:SECTION>03</d:SECTION>
+              <d:TITLE>COMPUTER LITERACY I</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-02-06T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10313</d:CRN>
+        <d:ID>00047128</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Lemelin</d:LAST_NAME>
+        <d:FIRST_NAME>Robert</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10314',ID='00047128',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10314',ID='00047128',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10314',ID='00047128',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10314',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10314',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10314',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10314</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>100</d:CRSENUMB>
+              <d:SECTION>10</d:SECTION>
+              <d:TITLE>COMPUTER LITERACY I</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-02-06T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10314</d:CRN>
+        <d:ID>00047128</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Lemelin</d:LAST_NAME>
+        <d:FIRST_NAME>Robert</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10315',ID='00734694',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10315',ID='00734694',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10315',ID='00734694',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10315',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10315',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10315',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10315</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>101</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>COMPUTER LITERACY II</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-02-09T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10315</d:CRN>
+        <d:ID>00734694</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Herve</d:LAST_NAME>
+        <d:FIRST_NAME>Daniel</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10316',ID='00047128',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10316',ID='00047128',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10316',ID='00047128',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10316',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10316',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10316',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10316</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>101</d:CRSENUMB>
+              <d:SECTION>02</d:SECTION>
+              <d:TITLE>COMPUTER LITERACY II</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-02-09T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10316</d:CRN>
+        <d:ID>00047128</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Lemelin</d:LAST_NAME>
+        <d:FIRST_NAME>Robert</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10317',ID='00047128',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10317',ID='00047128',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10317',ID='00047128',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10317',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10317',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10317',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10317</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>101</d:CRSENUMB>
+              <d:SECTION>03</d:SECTION>
+              <d:TITLE>COMPUTER LITERACY II</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-02-09T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10317</d:CRN>
+        <d:ID>00047128</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Lemelin</d:LAST_NAME>
+        <d:FIRST_NAME>Robert</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10320',ID='00047128',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10320',ID='00047128',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10320',ID='00047128',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10320',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10320',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10320',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10320</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>101</d:CRSENUMB>
+              <d:SECTION>10</d:SECTION>
+              <d:TITLE>COMPUTER LITERACY II</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-02-09T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10320</d:CRN>
+        <d:ID>00047128</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Lemelin</d:LAST_NAME>
+        <d:FIRST_NAME>Robert</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10321',ID='00439193',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10321',ID='00439193',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10321',ID='00439193',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10321',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10321',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10321',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10321</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>120</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>COMPUTER APPLICATIONS LITERACY</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10321</d:CRN>
+        <d:ID>00439193</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Anderson</d:LAST_NAME>
+        <d:FIRST_NAME>Olin</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10322',ID='00168977',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10322',ID='00168977',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10322',ID='00168977',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10322',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10322',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10322',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10322</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>120</d:CRSENUMB>
+              <d:SECTION>02</d:SECTION>
+              <d:TITLE>COMPUTER APPLICATIONS LITERACY</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10322</d:CRN>
+        <d:ID>00168977</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Pickett</d:LAST_NAME>
+        <d:FIRST_NAME>Rickie</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10324',ID='00168977',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10324',ID='00168977',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10324',ID='00168977',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10324',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10324',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10324',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10324</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>120</d:CRSENUMB>
+              <d:SECTION>04</d:SECTION>
+              <d:TITLE>COMPUTER APPLICATIONS LITERACY</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10324</d:CRN>
+        <d:ID>00168977</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Pickett</d:LAST_NAME>
+        <d:FIRST_NAME>Rickie</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10326',ID='00281261',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10326',ID='00281261',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10326',ID='00281261',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10326',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10326',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10326',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10326</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>120</d:CRSENUMB>
+              <d:SECTION>06</d:SECTION>
+              <d:TITLE>COMPUTER APPLICATIONS LITERACY</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10326</d:CRN>
+        <d:ID>00281261</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Reineman</d:LAST_NAME>
+        <d:FIRST_NAME>Jeremy</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10328',ID='00723058',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10328',ID='00723058',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10328',ID='00723058',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10328',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10328',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10328',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10328</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>120</d:CRSENUMB>
+              <d:SECTION>08</d:SECTION>
+              <d:TITLE>COMPUTER APPLICATIONS LITERACY</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10328</d:CRN>
+        <d:ID>00723058</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Pfleegor</d:LAST_NAME>
+        <d:FIRST_NAME>Isaac</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10329',ID='00664459',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10329',ID='00664459',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10329',ID='00664459',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10329',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10329',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10329',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10329</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>120</d:CRSENUMB>
+              <d:SECTION>09</d:SECTION>
+              <d:TITLE>COMPUTER APPLICATIONS LITERACY</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10329</d:CRN>
+        <d:ID>00664459</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Nielsen</d:LAST_NAME>
+        <d:FIRST_NAME>Eric</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10330',ID='00168977',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10330',ID='00168977',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10330',ID='00168977',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10330',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10330',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10330',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10330</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>120</d:CRSENUMB>
+              <d:SECTION>10</d:SECTION>
+              <d:TITLE>COMPUTER APPLICATIONS LITERACY</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10330</d:CRN>
+        <d:ID>00168977</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Pickett</d:LAST_NAME>
+        <d:FIRST_NAME>Rickie</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10332',ID='00047128',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10332',ID='00047128',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10332',ID='00047128',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10332',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10332',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10332',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10332</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>215</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>INTERNET &amp; WWW BASICS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10332</d:CRN>
+        <d:ID>00047128</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Lemelin</d:LAST_NAME>
+        <d:FIRST_NAME>Robert</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='10367',ID='00692921',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='10367',ID='00692921',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='10367',ID='00692921',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='10367',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='10367',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='10367',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>10367</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>490</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>SENIOR CAPSTONE</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>10367</d:CRN>
+        <d:ID>00692921</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Tappan</d:LAST_NAME>
+        <d:FIRST_NAME>Dan</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11141',ID='00047128',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11141',ID='00047128',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11141',ID='00047128',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11141',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11141',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11141',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11141</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>110</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>INTRODUCTION TO PROGRAMMING</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11141</d:CRN>
+        <d:ID>00047128</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Lemelin</d:LAST_NAME>
+        <d:FIRST_NAME>Robert</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11142',ID='00246639',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11142',ID='00246639',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11142',ID='00246639',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11142',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11142',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11142',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11142</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>210</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>PROGRAMMING PRINCIPLES I</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11142</d:CRN>
+        <d:ID>00246639</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Peters</d:LAST_NAME>
+        <d:FIRST_NAME>Chris</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11147',ID='00665331',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11147',ID='00665331',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11147',ID='00665331',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11147',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11147',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11147',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11147</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>320</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>ALGORITHMS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11147</d:CRN>
+        <d:ID>00665331</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Xu</d:LAST_NAME>
+        <d:FIRST_NAME>Bojian</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11154',ID='00227914',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11154',ID='00227914',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11154',ID='00227914',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11154',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11154',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11154',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11154</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>416</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>3D MODELING AND ANIMATION II</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11154</d:CRN>
+        <d:ID>00227914</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Kamp</d:LAST_NAME>
+        <d:FIRST_NAME>Brian</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11163',ID='00046759',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11163',ID='00046759',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11163',ID='00046759',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11163',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11163',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11163',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11163</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>495</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>INTERNSHIP</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11163</d:CRN>
+        <d:ID>00046759</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Steiner</d:LAST_NAME>
+        <d:FIRST_NAME>Stuart</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11165',ID='00227914',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11165',ID='00227914',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11165',ID='00227914',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11165',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11165',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11165',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11165</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>499</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>DS/WEB APPLICATION DEVELOPMENT</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11165</d:CRN>
+        <d:ID>00227914</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Kamp</d:LAST_NAME>
+        <d:FIRST_NAME>Brian</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11166',ID='00011853',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11166',ID='00011853',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11166',ID='00011853',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11166',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11166',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11166',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11166</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>499</d:CRSENUMB>
+              <d:SECTION>02</d:SECTION>
+              <d:TITLE>DS/ADV'D 3D GRAPHICS PROGRAMMI</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11166</d:CRN>
+        <d:ID>00011853</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Clark</d:LAST_NAME>
+        <d:FIRST_NAME>Robert</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11175',ID='00011853',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11175',ID='00011853',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11175',ID='00011853',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11175',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11175',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11175',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11175</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>599</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>DS/ADVANCED 3D GRAPHICS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11175</d:CRN>
+        <d:ID>00011853</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Clark</d:LAST_NAME>
+        <d:FIRST_NAME>Robert</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11176',ID='00298700',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11176',ID='00298700',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11176',ID='00298700',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11176',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11176',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11176',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11176</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>599</d:CRSENUMB>
+              <d:SECTION>02</d:SECTION>
+              <d:TITLE>DS/MEDIA LAW &amp; REGULATION</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11176</d:CRN>
+        <d:ID>00298700</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Shields</d:LAST_NAME>
+        <d:FIRST_NAME>Peter</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11177',ID='00665332',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11177',ID='00665332',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11177',ID='00665332',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11177',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11177',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11177',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11177</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>599</d:CRSENUMB>
+              <d:SECTION>03</d:SECTION>
+              <d:TITLE>IS/MED APP SECURITY RESEARCH</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11177</d:CRN>
+        <d:ID>00665332</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Li</d:LAST_NAME>
+        <d:FIRST_NAME>Dan</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11178',ID='00724494',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11178',ID='00724494',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11178',ID='00724494',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11178',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11178',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11178',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11178</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>600</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>THESIS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11178</d:CRN>
+        <d:ID>00724494</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Tian</d:LAST_NAME>
+        <d:FIRST_NAME>Yun</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11179',ID='00665332',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11179',ID='00665332',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11179',ID='00665332',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11179',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11179',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11179',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11179</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>600</d:CRSENUMB>
+              <d:SECTION>02</d:SECTION>
+              <d:TITLE>THESIS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11179</d:CRN>
+        <d:ID>00665332</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Li</d:LAST_NAME>
+        <d:FIRST_NAME>Dan</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11180',ID='00306751',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11180',ID='00306751',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11180',ID='00306751',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11180',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11180',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11180',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11180</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>600</d:CRSENUMB>
+              <d:SECTION>03</d:SECTION>
+              <d:TITLE>THESIS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11180</d:CRN>
+        <d:ID>00306751</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Taylor</d:LAST_NAME>
+        <d:FIRST_NAME>Carol</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11183',ID='00692921',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11183',ID='00692921',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11183',ID='00692921',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11183',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11183',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11183',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11183</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>601</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>RESEARCH REPORT</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11183</d:CRN>
+        <d:ID>00692921</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Tappan</d:LAST_NAME>
+        <d:FIRST_NAME>Dan</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='11184',ID='00665332',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='11184',ID='00665332',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='11184',ID='00665332',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='11184',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='11184',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='11184',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>11184</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>601</d:CRSENUMB>
+              <d:SECTION>02</d:SECTION>
+              <d:TITLE>RESEARCH REPORT</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>11184</d:CRN>
+        <d:ID>00665332</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Li</d:LAST_NAME>
+        <d:FIRST_NAME>Dan</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='12701',ID='00046759',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='12701',ID='00046759',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='12701',ID='00046759',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='12701',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='12701',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='12701',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>12701</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>211</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>PROGRAMMING PRINCIPLES II</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>12701</d:CRN>
+        <d:ID>00046759</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Steiner</d:LAST_NAME>
+        <d:FIRST_NAME>Stuart</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='12703',ID='00063276',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='12703',ID='00063276',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='12703',ID='00063276',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='12703',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='12703',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='12703',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>12703</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>255</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>C PROGRAMMING FOR ENGINEERS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>12703</d:CRN>
+        <d:ID>00063276</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Rolfe</d:LAST_NAME>
+        <d:FIRST_NAME>Timothy</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='13395',ID='00246639',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='13395',ID='00246639',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='13395',ID='00246639',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='13395',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='13395',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='13395',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>13395</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>210</d:CRSENUMB>
+              <d:SECTION>02</d:SECTION>
+              <d:TITLE>PROGRAMMING PRINCIPLES I</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>13395</d:CRN>
+        <d:ID>00246639</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Peters</d:LAST_NAME>
+        <d:FIRST_NAME>Chris</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='13396',ID='00724494',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='13396',ID='00724494',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='13396',ID='00724494',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='13396',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='13396',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='13396',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>13396</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>240</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>C AND UNIX PROGRAMMING</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>13396</d:CRN>
+        <d:ID>00724494</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Tian</d:LAST_NAME>
+        <d:FIRST_NAME>Yun</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='13990',ID='00118321',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='13990',ID='00118321',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='13990',ID='00118321',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='13990',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='13990',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='13990',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>13990</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>695</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>DEPARTMENTAL INTERNSHIP</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>13990</d:CRN>
+        <d:ID>00118321</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Schimpf</d:LAST_NAME>
+        <d:FIRST_NAME>Paul</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='14326',ID='00046759',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='14326',ID='00046759',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='14326',ID='00046759',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='14326',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='14326',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='14326',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>14326</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>340</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>OPERATING SYSTEMS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>14326</d:CRN>
+        <d:ID>00046759</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Steiner</d:LAST_NAME>
+        <d:FIRST_NAME>Stuart</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='14327',ID='00246639',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='14327',ID='00246639',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='14327',ID='00246639',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='14327',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='14327',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='14327',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>14327</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>327</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>RELATIONAL DATABASE SYSTEMS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>14327</d:CRN>
+        <d:ID>00246639</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Peters</d:LAST_NAME>
+        <d:FIRST_NAME>Chris</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='14332',ID='00046759',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='14332',ID='00046759',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='14332',ID='00046759',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='14332',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='14332',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='14332',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>14332</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>495</d:CRSENUMB>
+              <d:SECTION>21</d:SECTION>
+              <d:TITLE>INTERNSHIP</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>14332</d:CRN>
+        <d:ID>00046759</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Steiner</d:LAST_NAME>
+        <d:FIRST_NAME>Stuart</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='14579',ID='00306751',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='14579',ID='00306751',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='14579',ID='00306751',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='14579',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='14579',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='14579',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>14579</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>330</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>COMPUTER NETWORKS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>14579</d:CRN>
+        <d:ID>00306751</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Taylor</d:LAST_NAME>
+        <d:FIRST_NAME>Carol</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='14835',ID='00692921',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='14835',ID='00692921',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='14835',ID='00692921',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='14835',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='14835',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='14835',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>14835</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>350</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>SOFTWARE ENGINEERING</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>14835</d:CRN>
+        <d:ID>00692921</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Tappan</d:LAST_NAME>
+        <d:FIRST_NAME>Dan</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='14839',ID='00110458',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='14839',ID='00110458',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='14839',ID='00110458',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='14839',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='14839',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='14839',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>14839</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>488</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>SENIOR PROJECT</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>14839</d:CRN>
+        <d:ID>00110458</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Capaul</d:LAST_NAME>
+        <d:FIRST_NAME>Thomas</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='14844',ID='00734694',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='14844',ID='00734694',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='14844',ID='00734694',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='14844',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='14844',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='14844',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>14844</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>100</d:CRSENUMB>
+              <d:SECTION>04</d:SECTION>
+              <d:TITLE>COMPUTER LITERACY I</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-02-06T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>14844</d:CRN>
+        <d:ID>00734694</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Herve</d:LAST_NAME>
+        <d:FIRST_NAME>Daniel</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='14845',ID='00734694',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='14845',ID='00734694',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='14845',ID='00734694',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='14845',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='14845',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='14845',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>14845</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>101</d:CRSENUMB>
+              <d:SECTION>04</d:SECTION>
+              <d:TITLE>COMPUTER LITERACY II</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-02-09T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>14845</d:CRN>
+        <d:ID>00734694</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Herve</d:LAST_NAME>
+        <d:FIRST_NAME>Daniel</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='15268',ID='00295434',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='15268',ID='00295434',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='15268',ID='00295434',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='15268',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='15268',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='15268',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>15268</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>120</d:CRSENUMB>
+              <d:SECTION>05</d:SECTION>
+              <d:TITLE>COMPUTER APPLICATIONS LITERACY</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>15268</d:CRN>
+        <d:ID>00295434</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Sipes</d:LAST_NAME>
+        <d:FIRST_NAME>Richard</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='15271',ID='00227914',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='15271',ID='00227914',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='15271',ID='00227914',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='15271',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='15271',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='15271',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>15271</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>110</d:CRSENUMB>
+              <d:SECTION>02</d:SECTION>
+              <d:TITLE>INTRODUCTION TO PROGRAMMING</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>15271</d:CRN>
+        <d:ID>00227914</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Kamp</d:LAST_NAME>
+        <d:FIRST_NAME>Brian</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='15272',ID='00240754',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='15272',ID='00240754',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='15272',ID='00240754',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='15272',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='15272',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='15272',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>15272</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>260</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>ARCHITECTURE &amp; ORGANIZATION</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>15272</d:CRN>
+        <d:ID>00240754</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Imamura</d:LAST_NAME>
+        <d:FIRST_NAME>Kosuke</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='15273',ID='00665331',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='15273',ID='00665331',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='15273',ID='00665331',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='15273',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='15273',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='15273',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>15273</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>300</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>DATA STRUCTURES</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>15273</d:CRN>
+        <d:ID>00665331</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Xu</d:LAST_NAME>
+        <d:FIRST_NAME>Bojian</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='15626',ID='00723144',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='15626',ID='00723144',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='15626',ID='00723144',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='15626',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='15626',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='15626',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>15626</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>120</d:CRSENUMB>
+              <d:SECTION>12</d:SECTION>
+              <d:TITLE>COMPUTER APPLICATIONS LITERACY</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>15626</d:CRN>
+        <d:ID>00723144</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Englin</d:LAST_NAME>
+        <d:FIRST_NAME>Riley</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='15627',ID='00499853',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='15627',ID='00499853',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='15627',ID='00499853',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='15627',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='15627',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='15627',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>15627</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>120</d:CRSENUMB>
+              <d:SECTION>14</d:SECTION>
+              <d:TITLE>COMPUTER APPLICATIONS LITERACY</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>15627</d:CRN>
+        <d:ID>00499853</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Murphy</d:LAST_NAME>
+        <d:FIRST_NAME>Daniel</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='15824',ID='00665332',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='15824',ID='00665332',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='15824',ID='00665332',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='15824',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='15824',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='15824',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>15824</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>429</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>DATA MINING</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>15824</d:CRN>
+        <d:ID>00665332</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Li</d:LAST_NAME>
+        <d:FIRST_NAME>Dan</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='15826',ID='00110458',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='15826',ID='00110458',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='15826',ID='00110458',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='15826',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='15826',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='15826',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>15826</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>349</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>DESIGN PATTERNS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>15826</d:CRN>
+        <d:ID>00110458</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Capaul</d:LAST_NAME>
+        <d:FIRST_NAME>Thomas</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='15829',ID='00224983',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='15829',ID='00224983',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='15829',ID='00224983',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='15829',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='15829',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='15829',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>15829</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>474</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>COMPUTER GAMES DEVELOPMENT</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>15829</d:CRN>
+        <d:ID>00224983</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Chatellier</d:LAST_NAME>
+        <d:FIRST_NAME>Nathan</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='15830',ID='00046759',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='15830',ID='00046759',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='15830',ID='00046759',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='15830',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='15830',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='15830',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>15830</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>506</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>RESEARCH METHODS IN CS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>15830</d:CRN>
+        <d:ID>00046759</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Steiner</d:LAST_NAME>
+        <d:FIRST_NAME>Stuart</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='16068',ID='00110458',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='16068',ID='00110458',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='16068',ID='00110458',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='16068',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='16068',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='16068',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>16068</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>371</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>.NET PROGRAMMING</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>16068</d:CRN>
+        <d:ID>00110458</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Capaul</d:LAST_NAME>
+        <d:FIRST_NAME>Thomas</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='16069',ID='00724494',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='16069',ID='00724494',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='16069',ID='00724494',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='16069',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='16069',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='16069',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>16069</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>467</d:CRSENUMB>
+              <d:SECTION>77</d:SECTION>
+              <d:TITLE>CONCURRENT SYSTEMS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>16069</d:CRN>
+        <d:ID>00724494</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Tian</d:LAST_NAME>
+        <d:FIRST_NAME>Yun</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='16070',ID='00724494',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='16070',ID='00724494',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='16070',ID='00724494',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='16070',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='16070',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='16070',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>16070</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>567</d:CRSENUMB>
+              <d:SECTION>77</d:SECTION>
+              <d:TITLE>CONCURRENT SYSTEMS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>16070</d:CRN>
+        <d:ID>00724494</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Tian</d:LAST_NAME>
+        <d:FIRST_NAME>Yun</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='16154',ID='00240754',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='16154',ID='00240754',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='16154',ID='00240754',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='16154',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='16154',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='16154',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>16154</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>461</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>EMBEDDED SYSTEMS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>16154</d:CRN>
+        <d:ID>00240754</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Imamura</d:LAST_NAME>
+        <d:FIRST_NAME>Kosuke</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='16155',ID='00665332',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='16155',ID='00665332',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='16155',ID='00665332',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='16155',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='16155',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='16155',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>16155</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>525</d:CRSENUMB>
+              <d:SECTION>01</d:SECTION>
+              <d:TITLE>ADV DATABASE MGMT SYSTEMS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>16155</d:CRN>
+        <d:ID>00665332</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Li</d:LAST_NAME>
+        <d:FIRST_NAME>Dan</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='16225',ID='00117799',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='16225',ID='00117799',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='16225',ID='00117799',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='16225',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='16225',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='16225',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>16225</d:CRN>
+              <d:SUBJ>CPLA</d:SUBJ>
+              <d:CRSENUMB>120</d:CRSENUMB>
+              <d:SECTION>45</d:SECTION>
+              <d:TITLE>COMPUTER APPLICATIONS LITERACY</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-06-12T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>16225</d:CRN>
+        <d:ID>00117799</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Cromwell</d:LAST_NAME>
+        <d:FIRST_NAME>Brett</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='16565',ID='00306751',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='16565',ID='00306751',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='16565',ID='00306751',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='16565',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='16565',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='16565',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>16565</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>695</d:CRSENUMB>
+              <d:SECTION>02</d:SECTION>
+              <d:TITLE>DEPARTMENTAL INTERNSHIP</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>16565</d:CRN>
+        <d:ID>00306751</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Taylor</d:LAST_NAME>
+        <d:FIRST_NAME>Carol</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='16608',ID='00306751',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='16608',ID='00306751',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='16608',ID='00306751',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='16608',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='16608',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='16608',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>16608</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>495</d:CRSENUMB>
+              <d:SECTION>02</d:SECTION>
+              <d:TITLE>INTERNSHIP</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>16608</d:CRN>
+        <d:ID>00306751</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Taylor</d:LAST_NAME>
+        <d:FIRST_NAME>Carol</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='16733',ID='00124751',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='16733',ID='00124751',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='16733',ID='00124751',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='16733',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='16733',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='16733',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>16733</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>110</d:CRSENUMB>
+              <d:SECTION>80</d:SECTION>
+              <d:TITLE>INTRODUCTION TO PROGRAMMING</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-06-12T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>16733</d:CRN>
+        <d:ID>00124751</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Smith</d:LAST_NAME>
+        <d:FIRST_NAME>Adam</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='16752',ID='00692921',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='16752',ID='00692921',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='16752',ID='00692921',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='16752',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='16752',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='16752',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>16752</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>600</d:CRSENUMB>
+              <d:SECTION>04</d:SECTION>
+              <d:TITLE>THESIS</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>16752</d:CRN>
+        <d:ID>00692921</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Tappan</d:LAST_NAME>
+        <d:FIRST_NAME>Dan</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+  <entry>
+    <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/MEMBERS(CRN='16755',ID='00724494',TERM='201510')</id>
+    <title type="text"></title>
+    <updated>2015-02-20T22:16:35Z</updated>
+    <author>
+      <name />
+    </author>
+    <link rel="edit" title="MEMBERS" href="MEMBERS(CRN='16755',ID='00724494',TERM='201510')" />
+    <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/COURSES" type="application/atom+xml;type=entry" title="COURSES" href="MEMBERS(CRN='16755',ID='00724494',TERM='201510')/COURSES">
+      <m:inline>
+        <entry>
+          <id>https://webapps.eastern.ewu.edu/DataInterfaces/CourseEnrollment.svc/COURSES(CRN='16755',TERM='201510')</id>
+          <title type="text"></title>
+          <updated>2015-02-20T22:16:35Z</updated>
+          <author>
+            <name />
+          </author>
+          <link rel="edit" title="COURSES" href="COURSES(CRN='16755',TERM='201510')" />
+          <link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/MEMBERS" type="application/atom+xml;type=feed" title="MEMBERS" href="COURSES(CRN='16755',TERM='201510')/MEMBERS" />
+          <category term="CourseEnrollmentModel.COURSES" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+          <content type="application/xml">
+            <m:properties>
+              <d:TERM>201510</d:TERM>
+              <d:CRN>16755</d:CRN>
+              <d:SUBJ>CSCD</d:SUBJ>
+              <d:CRSENUMB>599</d:CRSENUMB>
+              <d:SECTION>04</d:SECTION>
+              <d:TITLE>IS/SPATIO-TEMPORAL DATABASE</d:TITLE>
+              <d:START_DATE m:type="Edm.DateTime">2015-01-05T00:00:00</d:START_DATE>
+              <d:END_DATE m:type="Edm.DateTime">2015-03-20T00:00:00</d:END_DATE>
+            </m:properties>
+          </content>
+        </entry>
+      </m:inline>
+    </link>
+    <category term="CourseEnrollmentModel.MEMBERS" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+    <content type="application/xml">
+      <m:properties>
+        <d:TERM>201510</d:TERM>
+        <d:CRN>16755</d:CRN>
+        <d:ID>00724494</d:ID>
+        <d:ROLE>faculty</d:ROLE>
+        <d:LAST_NAME>Tian</d:LAST_NAME>
+        <d:FIRST_NAME>Yun</d:FIRST_NAME>
+      </m:properties>
+    </content>
+  </entry>
+</feed>
