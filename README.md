@@ -1,6 +1,6 @@
-# Superb Evaluations
-[![wercker status](https://app.wercker.com/status/0e7cf80f5366562b384dcb81a0ec66bd/m "wercker status")](https://app.wercker.com/project/bykey/0e7cf80f5366562b384dcb81a0ec66bd)
-#### Resources
+
+This is my final project, I worked with 3 other excellent programmers.
+
 * [Slack](http://superb-ewu.slack.com/) — *chat & notifications*
 * [Trello](https://trello.com/b/qC7G9zlf/ewu-course-evaluations) — *what should we work on?*
 * [Toggl](https://www.toggl.com) — *useful for tracking your time*
